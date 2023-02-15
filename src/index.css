@@ -1,0 +1,120 @@
+/* inter-regular - latin_cyrillic */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Inter';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+  src: url('./assets/fonts/inter-v12-latin_cyrillic-regular.woff2') format('woff2'),
+       url('./assets/fonts/inter-v12-latin_cyrillic-regular.woff') format('woff');
+}
+/* inter-600 - latin_cyrillic */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Inter';
+  font-display: swap;
+  font-style: normal;
+  font-weight: 600;
+  src: url('./assets/fonts/inter-v12-latin_cyrillic-600.woff2') format('woff2'),
+       url('./assets/fonts/inter-v12-latin_cyrillic-600.woff') format('woff');
+}
+/* inter-700 - latin_cyrillic */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Inter';
+  font-display: swap;
+  font-style: normal;
+  font-weight: 700;
+  src: url('./assets/fonts/inter-v12-latin_cyrillic-700.woff2') format('woff2'),
+       url('./assets/fonts/inter-v12-latin_cyrillic-700.woff') format('woff');
+}
+
+/* poppins-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Poppins";
+  font-display: swap;
+  font-style: normal;
+  font-weight: 400;
+  src: url("./assets/fonts/poppins-v20-latin-regular.woff2") format("woff2"),
+    url("./assets/fonts/poppins-v20-latin-regular.woff") format("woff");
+}
+/* poppins-600 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Poppins";
+  font-display: swap;
+  font-style: normal;
+  font-weight: 600;
+  src: url("./assets/fonts/poppins-v20-latin-600.woff2") format("woff2"),
+    url("./assets/fonts/poppins-v20-latin-600.woff") format("woff");
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+.footer {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 290px;
+  width: 100%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 0 370px; /* bottom = footer height */
+  font-family: "Inter";
+  font-weight: normal;
+  font-size: 16px;
+  background-color: #e7e7e7;
+}
+body::-webkit-scrollbar {
+  width: 1px;
+  background-color: #07484a;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #70908b;
+  outline: 5px solid #70908b;
+}
+
+.container {
+  max-width: 1400px;
+  width: 100%;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+.container-big {
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}

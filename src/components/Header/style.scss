@@ -1,0 +1,90 @@
+.header {
+  margin-bottom: 20px;
+  padding: 20px 0;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+
+  &__logo-link {
+    background-color: #fff;
+    border-radius: 12px;
+    padding: 8.64px 42px;
+    margin-right: 9px;
+
+    &-img {
+      width: 144px;
+      height: 40px;
+    }
+  }
+
+  &__menu-box {
+    background-color: #fff;
+    border-radius: 12px;
+    max-width: 670px;
+    display: flex;
+    width: 100%;
+    height: 56px;
+    align-items: center;
+    margin-right: 10px;
+  }
+
+  &__menu-list {
+    margin-left: 33px;
+    display: flex;
+    max-width: 551px;
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  &__menu-item {
+    &-link {
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 19px;
+
+      color: #000000;
+    }
+  }
+
+  &__icon-box {
+    background-color: #fff;
+    border-radius: 12px;
+    max-width: 443px;
+    width: 100%;
+    height: 56px;
+    display: flex;
+    align-items: center;
+
+    &-link {
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 19px;
+      background: rgba(36, 36, 36, .1);
+      // opacity: 0.1;
+      padding: 15px 30px 16px 30px;
+      border-radius: 12px;
+      color: #121212;
+    }
+  }
+
+  &__icon-list {
+    max-width: 160px;
+    width: 100%;
+    margin: 20px 33px 20px 32px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &__icon-item {
+    &-link {
+      &-img {
+        width: 16px;
+        height: 16px;
+        color: #000;
+      }
+    }
+  }
+}

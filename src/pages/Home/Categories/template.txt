@@ -1,0 +1,679 @@
+import { v4 as GeneratorId } from "uuid";
+import CardImg1 from "./../../../assets/images/category-card-img-1.png";
+import CardImg2 from "./../../../assets/images/category-card-img-2.png";
+import CardImg3 from "./../../../assets/images/category-card-img-3.png";
+import CardImg4 from "./../../../assets/images/category-card-img-4.png";
+import CardImg5 from "./../../../assets/images/category-card-img-5.png";
+
+
+const CardData = [
+  {
+    AllCategory: [
+      {
+        id: GeneratorId(),
+        productName: "Котлы",
+        productPrice: 6400000,
+        productImg: { CardImg1 },
+      },
+
+      {
+        id: GeneratorId(),
+        productName: "Радиатор",
+        productPrice: 6400000,
+        productImg: { CardImg2 },
+      },
+
+      {
+        id: GeneratorId(),
+        productName: "Бойлеры и баки",
+        productPrice: 6400000,
+        productImg: { CardImg3 },
+      },
+
+      {
+        id: GeneratorId(),
+        productName: "Насосы",
+        productPrice: 6400000,
+        productImg: { CardImg4 },
+      },
+
+      {
+        id: GeneratorId(),
+        productName: "Арматура",
+        productPrice: 6400000,
+        productImg: { CardImg5 },
+      },
+
+      {
+        id: GeneratorId(),
+        productName: "Котлы болшой",
+        productPrice: 6400000,
+        productImg: { CardImg1 },
+      },
+
+      {
+        id: GeneratorId(),
+        productName: "Горелки",
+        productPrice: 6400000,
+        productImg: { CardImg2 },
+      },
+
+      {
+        id: GeneratorId(),
+        productName: "Горелки",
+        productPrice: 6400000,
+        productImg: { CardImg3 },
+      },
+
+      {
+        id: GeneratorId(),
+        productName: "Горелки",
+        productPrice: 6400000,
+        productImg: { CardImg4 },
+      },
+
+      {
+        id: GeneratorId(),
+        productName: "Арматура",
+        productPrice: 6400000,
+        productImg: { CardImg5 },
+      },
+
+
+    ],
+
+    Котлы: [
+      {
+        id: GeneratorId(),
+        productName: "Котлы",
+        productPrice: 6400000,
+        productImg: { CardImg1 },
+      },
+
+      {
+        id: GeneratorId(),
+        productName: "Котлы",
+        productPrice: 6400000,
+        productImg: { CardImg2 },
+      },
+
+      {
+        id: GeneratorId(),
+        productName: "Котлы",
+        productPrice: 6400000,
+        productImg: { CardImg3 },
+      },
+
+      {
+        id: GeneratorId(),
+        productName: "Котлы",
+        productPrice: 6400000,
+        productImg: { CardImg4 },
+      },
+
+      {
+        id: GeneratorId(),
+        productName: "Котлы",
+        productPrice: 6400000,
+        productImg: { CardImg5 },
+      },
+
+      {
+        id: GeneratorId(),
+        productName: "Котлы",
+        productPrice: 6400000,
+        productImg: { CardImg1 },
+      },
+
+      {
+        id: GeneratorId(),
+        productName: "Котлы",
+        productPrice: 6400000,
+        productImg: { CardImg2 },
+      },
+
+      {
+        id: GeneratorId(),
+        productName: "Котлы",
+        productPrice: 6400000,
+        productImg: { CardImg3 },
+      },
+
+      {
+        id: GeneratorId(),
+        productName: "Котлы",
+        productPrice: 6400000,
+        productImg: { CardImg4 },
+      },
+
+      {
+        id: GeneratorId(),
+        productName: "Котлы",
+        productPrice: 6400000,
+        productImg: { CardImg5 },
+      },
+
+
+    ],
+
+    Радиатор: [
+      {
+        id: GeneratorId(),
+        productName: "Радиатор",
+        productPrice: 6400000,
+        productImg: { CardImg1 },
+      },
+
+      {
+        id: GeneratorId(),
+        productName: "Радиатор",
+        productPrice: 6400000,
+        productImg: { CardImg2 },
+      },
+
+      {
+        id: GeneratorId(),
+        productName: "Радиатор",
+        productPrice: 6400000,
+        productImg: { CardImg3 },
+      },
+
+      {
+        id: GeneratorId(),
+        productName: "Радиатор",
+        productPrice: 6400000,
+        productImg: { CardImg4 },
+      },
+
+      {
+        id: GeneratorId(),
+        productName: "Радиатор",
+        productPrice: 6400000,
+        productImg: { CardImg5 },
+      },
+
+      {
+        id: GeneratorId(),
+        productName: "Радиатор",
+        productPrice: 6400000,
+        productImg: { CardImg1 },
+      },
+
+      {
+        id: GeneratorId(),
+        productName: "Радиатор",
+        productPrice: 6400000,
+        productImg: { CardImg2 },
+      },
+
+      {
+        id: GeneratorId(),
+        productName: "Радиатор",
+        productPrice: 6400000,
+        productImg: { CardImg3 },
+      },
+
+      {
+        id: GeneratorId(),
+        productName: "Радиатор",
+        productPrice: 6400000,
+        productImg: { CardImg4 },
+      },
+
+      {
+        id: GeneratorId(),
+        productName: "Радиатор",
+        productPrice: 6400000,
+        productImg: { CardImg5 },
+      },
+
+
+    ],
+
+    БойлерыИБаки: [
+      {
+        id: GeneratorId(),
+        productName: "Бойлеры и баки",
+        productPrice: 6400000,
+        productImg: { CardImg1 },
+      },
+
+      {
+        id: GeneratorId(),
+        productName: "Бойлеры и баки",
+        productPrice: 6400000,
+        productImg: { CardImg2 },
+      },
+
+      {
+        id: GeneratorId(),
+        productName: "Бойлеры и баки",
+        productPrice: 6400000,
+        productImg: { CardImg3 },
+      },
+
+      {
+        id: GeneratorId(),
+        productName: "Бойлеры и баки",
+        productPrice: 6400000,
+        productImg: { CardImg4 },
+      },
+
+      {
+        id: GeneratorId(),
+        productName: "Бойлеры и баки",
+        productPrice: 6400000,
+        productImg: { CardImg5 },
+      },
+
+      {
+        id: GeneratorId(),
+        productName: "Бойлеры и баки",
+        productPrice: 6400000,
+        productImg: { CardImg1 },
+      },
+
+      {
+        id: GeneratorId(),
+        productName: "Бойлеры и баки",
+        productPrice: 6400000,
+        productImg: { CardImg2 },
+      },
+
+      {
+        id: GeneratorId(),
+        productName: "Бойлеры и баки",
+        productPrice: 6400000,
+        productImg: { CardImg3 },
+      },
+
+      {
+        id: GeneratorId(),
+        productName: "Бойлеры и баки",
+        productPrice: 6400000,
+        productImg: { CardImg4 },
+      },
+
+      {
+        id: GeneratorId(),
+        productName: "Бойлеры и баки",
+        productPrice: 6400000,
+        productImg: { CardImg5 },
+      },
+
+
+    ],
+
+    Насосы: [
+      {
+        id: GeneratorId(),
+        productName: "Насосы",
+        productPrice: 6400000,
+        productImg: { CardImg1 },
+      },
+
+      {
+        id: GeneratorId(),
+        productName: "Насосы",
+        productPrice: 6400000,
+        productImg: { CardImg2 },
+      },
+
+      {
+        id: GeneratorId(),
+        productName: "Насосы",
+        productPrice: 6400000,
+        productImg: { CardImg3 },
+      },
+
+      {
+        id: GeneratorId(),
+        productName: "Насосы",
+        productPrice: 6400000,
+        productImg: { CardImg4 },
+      },
+
+      {
+        id: GeneratorId(),
+        productName: "Насосы",
+        productPrice: 6400000,
+        productImg: { CardImg5 },
+      },
+
+      {
+        id: GeneratorId(),
+        productName: "Насосы",
+        productPrice: 6400000,
+        productImg: { CardImg1 },
+      },
+
+      {
+        id: GeneratorId(),
+        productName: "Насосы",
+        productPrice: 6400000,
+        productImg: { CardImg2 },
+      },
+
+      {
+        id: GeneratorId(),
+        productName: "Насосы",
+        productPrice: 6400000,
+        productImg: { CardImg3 },
+      },
+
+      {
+        id: GeneratorId(),
+        productName: "Насосы",
+        productPrice: 6400000,
+        productImg: { CardImg4 },
+      },
+
+      {
+        id: GeneratorId(),
+        productName: "Насосы",
+        productPrice: 6400000,
+        productImg: { CardImg5 },
+      },
+
+
+    ],
+
+    Арматура: [
+      {
+        id: GeneratorId(),
+        productName: "Арматура",
+        productPrice: 6400000,
+        productImg: { CardImg1 },
+      },
+
+      {
+        id: GeneratorId(),
+        productName: "Арматура",
+        productPrice: 6400000,
+        productImg: { CardImg2 },
+      },
+
+      {
+        id: GeneratorId(),
+        productName: "Арматура",
+        productPrice: 6400000,
+        productImg: { CardImg3 },
+      },
+
+      {
+        id: GeneratorId(),
+        productName: "Арматура",
+        productPrice: 6400000,
+        productImg: { CardImg4 },
+      },
+
+      {
+        id: GeneratorId(),
+        productName: "Арматура",
+        productPrice: 6400000,
+        productImg: { CardImg5 },
+      },
+
+      {
+        id: GeneratorId(),
+        productName: "Арматура",
+        productPrice: 6400000,
+        productImg: { CardImg1 },
+      },
+
+      {
+        id: GeneratorId(),
+        productName: "Арматура",
+        productPrice: 6400000,
+        productImg: { CardImg2 },
+      },
+
+      {
+        id: GeneratorId(),
+        productName: "Арматура",
+        productPrice: 6400000,
+        productImg: { CardImg3 },
+      },
+
+      {
+        id: GeneratorId(),
+        productName: "Арматура",
+        productPrice: 6400000,
+        productImg: { CardImg4 },
+      },
+
+      {
+        id: GeneratorId(),
+        productName: "Арматура",
+        productPrice: 6400000,
+        productImg: { CardImg5 },
+      },
+
+
+    ],
+
+    КотлыБолшой: [
+      {
+        id: GeneratorId(),
+        productName: "Котлы болшой",
+        productPrice: 6400000,
+        productImg: { CardImg1 },
+      },
+
+      {
+        id: GeneratorId(),
+        productName: "Котлы болшой",
+        productPrice: 6400000,
+        productImg: { CardImg2 },
+      },
+
+      {
+        id: GeneratorId(),
+        productName: "Котлы болшой",
+        productPrice: 6400000,
+        productImg: { CardImg3 },
+      },
+
+      {
+        id: GeneratorId(),
+        productName: "Котлы болшой",
+        productPrice: 6400000,
+        productImg: { CardImg4 },
+      },
+
+      {
+        id: GeneratorId(),
+        productName: "Котлы болшой",
+        productPrice: 6400000,
+        productImg: { CardImg5 },
+      },
+
+      {
+        id: GeneratorId(),
+        productName: "Котлы болшой",
+        productPrice: 6400000,
+        productImg: { CardImg1 },
+      },
+
+      {
+        id: GeneratorId(),
+        productName: "Котлы болшой",
+        productPrice: 6400000,
+        productImg: { CardImg2 },
+      },
+
+      {
+        id: GeneratorId(),
+        productName: "Котлы болшой",
+        productPrice: 6400000,
+        productImg: { CardImg3 },
+      },
+
+      {
+        id: GeneratorId(),
+        productName: "Котлы болшой",
+        productPrice: 6400000,
+        productImg: { CardImg4 },
+      },
+
+      {
+        id: GeneratorId(),
+        productName: "Котлы болшой",
+        productPrice: 6400000,
+        productImg: { CardImg5 },
+      },
+
+
+    ],
+
+    Горелки: [
+      {
+        id: GeneratorId(),
+        productName: "Горелки",
+        productPrice: 6400000,
+        productImg: { CardImg1 },
+      },
+
+      {
+        id: GeneratorId(),
+        productName: "Горелки",
+        productPrice: 6400000,
+        productImg: { CardImg2 },
+      },
+
+      {
+        id: GeneratorId(),
+        productName: "Горелки",
+        productPrice: 6400000,
+        productImg: { CardImg3 },
+      },
+
+      {
+        id: GeneratorId(),
+        productName: "Горелки",
+        productPrice: 6400000,
+        productImg: { CardImg4 },
+      },
+
+      {
+        id: GeneratorId(),
+        productName: "Горелки",
+        productPrice: 6400000,
+        productImg: { CardImg5 },
+      },
+
+      {
+        id: GeneratorId(),
+        productName: "Горелки",
+        productPrice: 6400000,
+        productImg: { CardImg1 },
+      },
+
+      {
+        id: GeneratorId(),
+        productName: "Горелки",
+        productPrice: 6400000,
+        productImg: { CardImg2 },
+      },
+
+      {
+        id: GeneratorId(),
+        productName: "Горелки",
+        productPrice: 6400000,
+        productImg: { CardImg3 },
+      },
+
+      {
+        id: GeneratorId(),
+        productName: "Горелки",
+        productPrice: 6400000,
+        productImg: { CardImg4 },
+      },
+
+      {
+        id: GeneratorId(),
+        productName: "Горелки",
+        productPrice: 6400000,
+        productImg: { CardImg5 },
+      },
+
+
+    ],
+
+    Горелки: [
+      {
+        id: GeneratorId(),
+        productName: "Горелки",
+        productPrice: 6400000,
+        productImg: { CardImg1 },
+      },
+
+      {
+        id: GeneratorId(),
+        productName: "Горелки",
+        productPrice: 6400000,
+        productImg: { CardImg2 },
+      },
+
+      {
+        id: GeneratorId(),
+        productName: "Горелки",
+        productPrice: 6400000,
+        productImg: { CardImg3 },
+      },
+
+      {
+        id: GeneratorId(),
+        productName: "Горелки",
+        productPrice: 6400000,
+        productImg: { CardImg4 },
+      },
+
+      {
+        id: GeneratorId(),
+        productName: "Горелки",
+        productPrice: 6400000,
+        productImg: { CardImg5 },
+      },
+
+      {
+        id: GeneratorId(),
+        productName: "Горелки",
+        productPrice: 6400000,
+        productImg: { CardImg1 },
+      },
+
+      {
+        id: GeneratorId(),
+        productName: "Горелки",
+        productPrice: 6400000,
+        productImg: { CardImg2 },
+      },
+
+      {
+        id: GeneratorId(),
+        productName: "Горелки",
+        productPrice: 6400000,
+        productImg: { CardImg3 },
+      },
+
+      {
+        id: GeneratorId(),
+        productName: "Горелки",
+        productPrice: 6400000,
+        productImg: { CardImg4 },
+      },
+
+      {
+        id: GeneratorId(),
+        productName: "Горелки",
+        productPrice: 6400000,
+        productImg: { CardImg5 },
+      },
+
+
+    ],
+  }
+]
+
+export default CardData;

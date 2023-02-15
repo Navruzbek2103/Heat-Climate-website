@@ -1,0 +1,50 @@
+.offer-home {
+  margin-bottom: 115px;
+
+  &__wrapper {
+    &-box {
+      max-width: 469px;
+      width: 100%;
+      margin-bottom: 25px;
+      margin-left: 20px;
+      &-title {
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 28px;
+        color: #000000;
+      }
+    }
+
+    &-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+
+    &-item {
+      &-link {
+        max-width: 325px;
+        width: 100%;
+        height: 180px;
+        display: flex;
+        gap: 30px;
+        background-color: #fff;
+        border-radius: 16px;
+        padding: 57px 34px 55px 43px;
+
+        &-img {
+          margin-top: -7px;
+          width: 70px;
+          height: 70px;
+        }
+
+        &-subtitle {
+          font-weight: 700;
+          font-size: 14px;
+          line-height: 17px;
+          color: #000000;
+        }
+      }
+    }
+  }
+}
