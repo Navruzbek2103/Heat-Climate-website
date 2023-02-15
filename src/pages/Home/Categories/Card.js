@@ -4,7 +4,7 @@ import CardImg2 from "./../../../assets/images/category-card-img-2.png";
 import CardImg3 from "./../../../assets/images/category-card-img-3.png";
 import CardImg4 from "./../../../assets/images/category-card-img-4.png";
 import CardImg5 from "./../../../assets/images/category-card-img-5.png";
-
+import CardImg6 from "./../../../assets/images/gorelka-card-img.png";
 
 
 import KotyolAristonCardImg1 from "./../../../assets/images/Kotyol/KotyolAriston-card-img-1.png";
@@ -88,6 +88,8 @@ import IrrigateSystemCardImg10 from "./../../../assets/images/Система-о�
 
 
 
+// import GorelkaCardImg1 from "./../../../assets/images/Система-орошения/irrigateSystem-card-img-10.jpg";
+
 const CardData = [
 
   {
@@ -169,7 +171,7 @@ const CardData = [
         productName: "Горелки1",
         productPrice: 6400000,
         productBrand: "Artel",
-        productImg: { CardImg2 },
+        productImg: { CardImg6 },
         OsType: "OS type",
         displayType: "Retina",
         diagonal: "6.7",
