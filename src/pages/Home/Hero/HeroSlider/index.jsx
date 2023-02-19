@@ -29,7 +29,7 @@ export default function App() {
     progressContent.current.textContent = `${Math.ceil(time / 1000)}s`;
   };
 
-  console.log(CardData);
+  // console.log(CardData);
 
   return (
     <>
@@ -54,7 +54,7 @@ export default function App() {
             <h2 className="swiper__content-title">
               Котлы для удобной и экономной эксплуатации...
             </h2>
-            <Link to="/single-page" className="swiper__content-link">
+            <Link to="/Котлы" className="swiper__content-link">
               Подробнее
               <RiArrowRightSLine />
             </Link>
@@ -73,7 +73,7 @@ export default function App() {
             <h2 className="swiper__content-title">
               Радиатор для удобной и экономной эксплуатации...
             </h2>
-            <Link to="/single-page" className="swiper__content-link">
+            <Link to="/Радиатор" className="swiper__content-link">
               Подробнее
               <RiArrowRightSLine />
             </Link>
@@ -92,7 +92,7 @@ export default function App() {
             <h2 className="swiper__content-title">
               Насосы для удобной и экономной эксплуатации...
             </h2>
-            <Link to="/single-page" className="swiper__content-link">
+            <Link to="/Насосы" className="swiper__content-link">
               Подробнее
               <RiArrowRightSLine />
             </Link>
@@ -111,7 +111,7 @@ export default function App() {
             <h2 className="swiper__content-title">
               Арматура для удобной и экономной эксплуатации...
             </h2>
-            <Link to="/single-page" className="swiper__content-link">
+            <Link to="/Арматура" className="swiper__content-link">
               Подробнее
               <RiArrowRightSLine />
             </Link>
@@ -130,7 +130,7 @@ export default function App() {
             <h2 className="swiper__content-title">
               Горелки для удобной и экономной эксплуатации...
             </h2>
-            <Link to="/single-page" className="swiper__content-link">
+            <Link to="/Горелки" className="swiper__content-link">
               Подробнее
               <RiArrowRightSLine />
             </Link>

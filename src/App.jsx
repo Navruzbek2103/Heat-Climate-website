@@ -3,7 +3,7 @@ import Header from "./components/Header";
 import Footer from "./components/Footer";
 import { Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
-import Brends from "./pages/Brends";
+import Brands from "./pages/Brands";
 import Products from "./pages/Products";
 import Service from "./pages/Service";
 import News from "./pages/News";
@@ -20,7 +20,7 @@ const App = ( ) => {
       <Routes>
         <Route path="/" element={<Home />} />
 
-        <Route path="/Бренды" element={<Brends />} />
+        <Route path="/Бренды" element={<Brands />} />
         <Route path="/Продукты" element={<Products />} />
         <Route path="/Сервисная-служба" element={<Service />} />
         <Route path="/Новости" element={<News />} />

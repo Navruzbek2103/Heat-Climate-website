@@ -14,6 +14,7 @@ const index = () => {
       underlineChar.current.style.borderBottom = "4px solid #1c2d3f";
       underlineAbout.current.style.borderBottom = "4px solid transparent";
       underlineComments.current.style.borderBottom = "4px solid transparent";
+      underlineComments.current.style.borderBottom = "4px solid transparent";
     } else if (menu === "About") {
       underlineAbout.current.style.borderBottom = "4px solid #1c2d3f";
       underlineChar.current.style.borderBottom = "4px solid transparent";

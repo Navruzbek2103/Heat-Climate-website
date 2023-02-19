@@ -50,7 +50,6 @@ const index = () => {
                 <ul key={index} className="categories-home__card-list">
                   {item["All category"].map(
                     ({ id, productName, productPrice, productImg }) => {
-                      // console.log();
                       return (
                         <li key={id} className="categories-home__card-item">
                           <Link
@@ -67,7 +66,7 @@ const index = () => {
                             </div>
                             <div className="categories-home__card-item-imgBox">
                               <img
-                                src={Object.values(productImg)}
+                                src={productImg[0]}
                                 alt="card img"
                                 className="categories-home__card-item-imgBox-img"
                               />
@@ -100,7 +99,7 @@ const index = () => {
                             </div>
                             <div className="categories-home__card-item-imgBox">
                               <img
-                                src={Object.values(productImg)}
+                                src={productImg[0]}
                                 alt="card img"
                                 className="categories-home__card-item-imgBox-img"
                               />
@@ -133,7 +132,7 @@ const index = () => {
                             </div>
                             <div className="categories-home__card-item-imgBox">
                               <img
-                                src={Object.values(productImg)}
+                                src={productImg[0]}
                                 alt="card img"
                                 className="categories-home__card-item-imgBox-img"
                               />
@@ -166,7 +165,7 @@ const index = () => {
                             </div>
                             <div className="categories-home__card-item-imgBox">
                               <img
-                                src={Object.values(productImg)}
+                                src={productImg[0]}
                                 alt="card img"
                                 className="categories-home__card-item-imgBox-img"
                               />
@@ -199,7 +198,7 @@ const index = () => {
                             </div>
                             <div className="categories-home__card-item-imgBox">
                               <img
-                                src={Object.values(productImg)}
+                                src={productImg[0]}
                                 alt="card img"
                                 className="categories-home__card-item-imgBox-img"
                               />
@@ -232,7 +231,7 @@ const index = () => {
                             </div>
                             <div className="categories-home__card-item-imgBox">
                               <img
-                                src={Object.values(productImg)}
+                                src={productImg[0]}
                                 alt="card img"
                                 className="categories-home__card-item-imgBox-img"
                               />
@@ -265,7 +264,7 @@ const index = () => {
                             </div>
                             <div className="categories-home__card-item-imgBox">
                               <img
-                                src={Object.values(productImg)}
+                                src={productImg[0]}
                                 alt="card img"
                                 className="categories-home__card-item-imgBox-img"
                               />
@@ -298,7 +297,7 @@ const index = () => {
                             </div>
                             <div className="categories-home__card-item-imgBox">
                               <img
-                                src={Object.values(productImg)}
+                                src={productImg[0]}
                                 alt="card img"
                                 className="categories-home__card-item-imgBox-img"
                               />
@@ -332,7 +331,7 @@ const index = () => {
                             </div>
                             <div className="categories-home__card-item-imgBox">
                               <img
-                                src={Object.values(productImg)}
+                                src={productImg[0]}
                                 alt="card img"
                                 className="categories-home__card-item-imgBox-img"
                               />
