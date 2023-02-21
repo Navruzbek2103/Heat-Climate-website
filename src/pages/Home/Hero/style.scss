@@ -63,12 +63,12 @@
         background-color: #fcdd04;
 
         &:hover {
-          background-color: #d9c000;
+          background-color: rgba(252, 221, 4, .5);
         }
 
         &:active {
           transform: scale(.95);
-          background-color: #fcdd04;
+          background-color: rgba(252, 221, 4, 1);
         }
       }
     }
