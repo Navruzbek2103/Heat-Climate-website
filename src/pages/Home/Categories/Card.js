@@ -240,12 +240,20 @@ const CardData = [
         camera: "12 Mpx",
       },
 
+    //   const LinkReplaceItemId = ({ itemId }) => {
+    //   const { path } = useRouteMatch();
+    //   const params = useParams();
+
+    //   return (
+    //     <Link to={generatePath(path, { ...params, itemId })}>Link</Link>
+    //   )
+    // }
       {
         id: GeneratorId(),
         productName: "Горелки1",
         productPrice: 6400000,
         productBrand: "Artel",
-        productImg: [CardImg6, CardImg6],
+        productImg: [GorelkaCardImg2, GorelkaCardImg3],
         OsType: "OS type",
         displayType: "Retina",
         diagonal: "6.7",
@@ -281,7 +289,7 @@ const CardData = [
         productName: "Арматура2",
         productPrice: 6400000,
         productBrand: "Artel",
-        productImg: [ArmaturaCardImg2, ArmaturaCardImg2, ArmaturaCardImg3, ArmaturaCardImg4, ArmaturaCardImg5, ArmaturaCardImg6, ArmaturaCardImg7],
+        productImg: [ArmaturaCardImg2, ArmaturaCardImg3, ArmaturaCardImg4, ArmaturaCardImg5, ArmaturaCardImg6, ArmaturaCardImg7, ArmaturaCardImg8],
         OsType: "OS type",
         displayType: "Retina",
         diagonal: "6.7",

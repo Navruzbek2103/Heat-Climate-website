@@ -5,8 +5,8 @@ import { Link } from "react-router-dom";
 import CardData from "../../Home/Categories/Card";
 import Marquee from "react-fast-marquee";
 
-
 const index = () => {
+
   return (
     <section className="recommended-single">
       <div className="container-big">
@@ -19,6 +19,8 @@ const index = () => {
                   return el.Recommended.map(
                     ({ id, productName, productPrice, productImg }) => {
                       // console.log(productName.split(" ").join("-"));
+
+
                       return (
                         <li
                           className="recommended-single__wrapper-item"
@@ -26,6 +28,7 @@ const index = () => {
                         >
                           <Link
                             to={productName.split(" ").join("-")}
+                            // to={productName.split(" ").join("-")}
                             className="recommended-single__wrapper-item-link"
                           >
                             <div className="recommended-single__wrapper-item-box">

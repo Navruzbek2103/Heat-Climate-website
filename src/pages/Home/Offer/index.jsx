@@ -20,13 +20,18 @@ const index = () => {
               offerData.map(({id, title, icon}) => {
                 return (
                   <li className="offer-home__wrapper-item" key={id}>
-                    <Link to="" className="offer-home__wrapper-item-link">
+                    <Link
+                      to="/Сервисная-служба"
+                      className="offer-home__wrapper-item-link"
+                    >
                       <img
                         src={Object.values(icon)}
                         alt="offer icon"
                         className="offer-home__wrapper-item-link-img"
                       />
-                      <h3 className="offer-home__wrapper-item-link-subtitle">{title}</h3>
+                      <h3 className="offer-home__wrapper-item-link-subtitle">
+                        {title}
+                      </h3>
                     </Link>
                   </li>
                 );

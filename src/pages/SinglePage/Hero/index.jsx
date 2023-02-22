@@ -8,22 +8,67 @@ import { FaShoppingBag } from "react-icons/fa";
 import { FiCopy } from "react-icons/fi";
 import { useParams } from "react-router-dom";
 import CardData from "../../Home/Categories/Card";
-import {HiOutlineClipboardList} from "react-icons/hi"
-import {MdOutlineCancel} from "react-icons/md"
+import { HiOutlineClipboardList } from "react-icons/hi";
+import { MdOutlineCancel } from "react-icons/md";
+import { GrFormClose } from "react-icons/gr";
 
 const index = () => {
   const { cardTitle } = useParams();
-  // console.log(cardTitle);
-  // cardTitle = cardTitle.split("-")
-
   const ElModal = useRef();
+  const checklist = useRef();
 
+  // form elements
+  const name = useRef();
+  const surName = useRef();
+  const passportSeries = useRef();
+  const passportNumbers = useRef();
+  const phoneNumber = useRef();
+  const plusPhoneNumber = useRef();
+  const mapUrl = useRef();
   const showModal = () => {
-    ElModal.current.style.transform = "scale(1)"
-  }
-
+    ElModal.current.style.transform = "scale(1)";
+  };
   const hiddenModal = () => {
     ElModal.current.style.transform = "scale(0)";
+    name.current.value = "";
+    surName.current.value = "";
+    passportSeries.current.value = "";
+    passportNumbers.current.value = "";
+    phoneNumber.current.value = "";
+    mapUrl.current.value = "";
+    if (plusPhoneNumber.current.value) {
+      plusPhoneNumber.current.value = "";
+    }else{
+      plusPhoneNumber.current.value = "";
+
+    }
+  };
+  const showChecklist = () => {
+    if (
+      name.current.value &&
+      surName.current.value &&
+      passportSeries.current.value &&
+      passportNumbers.current.value &&
+      phoneNumber.current.value &&
+      mapUrl.current.value
+    ) {
+      ElModal.current.style.transform = "scale(0)";
+      checklist.current.style.transform = "scale(1)";
+    } else {
+      alert("Ma'lumotlar yetarli emas !");
+    }
+  };
+  const hiddenChecklist = () => {
+    checklist.current.style.transform = "scale(0)";
+    name.current.value = "";
+    surName.current.value = "";
+    passportSeries.current.value = "";
+    passportNumbers.current.value = "";
+    phoneNumber.current.value = "";
+    mapUrl.current.value = "";
+    if (plusPhoneNumber.current.value) {
+      plusPhoneNumber.current.value = "";
+    }
   };
 
   return (
@@ -216,6 +261,8 @@ const index = () => {
           </div>
         </div>
       </div>
+
+      {/* Modal window */}
       <div className="hero-singlePage__modal" ref={ElModal}>
         <div className="hero-singlePage__modal-wrapper">
           <form>
@@ -239,6 +286,7 @@ const index = () => {
                           type="text"
                           className="hero-singlePage__modal-wrapper-top-left-personalData-item-subitem-input"
                           placeholder="Your surname"
+                          ref={surName}
                         />
                       </li>
                       <li className="hero-singlePage__modal-wrapper-top-left-personalData-item-subitem">
@@ -250,6 +298,7 @@ const index = () => {
                           type="text"
                           className="hero-singlePage__modal-wrapper-top-left-personalData-item-subitem-input"
                           placeholder="Your name"
+                          ref={name}
                         />
                       </li>
                       <li className="hero-singlePage__modal-wrapper-top-left-personalData-item-subitem">
@@ -259,8 +308,11 @@ const index = () => {
                         <input
                           required
                           type="text"
+                          maxLength={2}
+                          minLength={2}
                           className="hero-singlePage__modal-wrapper-top-left-personalData-item-subitem-input"
                           placeholder="AA"
+                          ref={passportSeries}
                         />
                       </li>
                       <li className="hero-singlePage__modal-wrapper-top-left-personalData-item-subitem">
@@ -270,8 +322,11 @@ const index = () => {
                         <input
                           required
                           type="number"
+                          minLength={7}
+                          maxLength={7}
                           className="hero-singlePage__modal-wrapper-top-left-personalData-item-subitem-input"
                           placeholder="Your passport number"
+                          ref={passportNumbers}
                         />
                       </li>
                     </ul>
@@ -287,8 +342,10 @@ const index = () => {
                         </h4>
                         <input
                           required
-                          type="text"
+                          type="number"
                           className="hero-singlePage__modal-wrapper-top-left-personalData-item-subitem-input"
+                          placeholder="Your phone number"
+                          ref={phoneNumber}
                         />
                       </li>
                       <li className="hero-singlePage__modal-wrapper-top-left-personalData-item-subitem">
@@ -297,8 +354,10 @@ const index = () => {
                         </h4>
                         <input
                           required
-                          type="text"
+                          type="number"
                           className="hero-singlePage__modal-wrapper-top-left-personalData-item-subitem-input"
+                          placeholder="Your phone number"
+                          ref={plusPhoneNumber}
                         />
                       </li>
                       <li className="hero-singlePage__modal-wrapper-top-left-personalData-item-subitem">
@@ -312,9 +371,10 @@ const index = () => {
                         </h4>
                         <input
                           required
-                          type="text"
+                          type="url"
                           className="hero-singlePage__modal-wrapper-top-left-personalData-item-subitem-input"
-                          placeholder="Your surname"
+                          placeholder="https://www.google.com/"
+                          ref={mapUrl}
                         />
                       </li>
                     </ul>
@@ -395,12 +455,16 @@ const index = () => {
             </div>
             <div className="hero-singlePage__modal-wrapper-bottom">
               <button
+                type="button"
                 className="hero-singlePage__modal-wrapper-bottom-btnSend"
+                onClick={() => showChecklist()}
+                // onClick={() => console.log(name.current.value)}
               >
                 <HiOutlineClipboardList />
                 Make a purchase
               </button>
               <button
+                type="button"
                 className="hero-singlePage__modal-wrapper-bottom-btnCancel"
                 onClick={() => hiddenModal()}
               >
@@ -410,8 +474,25 @@ const index = () => {
             </div>
           </form>
         </div>
-        <div className="hero-singlePage__modal-inner">
-          
+      </div>
+      <div className="hero-singlePage__modalInner" ref={checklist}>
+        <div className="hero-singlePage__modalInner-wrapper">
+          <div className="hero-singlePage__modalInner-wrapper-left">
+            <h2 className="hero-singlePage__modalInner-wrapper-left-title">
+              The purchase was successful
+            </h2>
+            <p className="hero-singlePage__modalInner-wrapper-left-text">
+              To get a personal consultation, call our short numbers and our
+              specialists will provide you with detailed information.
+            </p>
+          </div>
+          <div className="hero-singlePage__modalInner-wrapper-right"></div>
+        </div>
+        <div
+          className="hero-singlePage__modalInner-close"
+          onClick={() => hiddenChecklist()}
+        >
+          <GrFormClose />
         </div>
       </div>
     </section>

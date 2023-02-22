@@ -22,6 +22,17 @@
     }
 
     &-item {
+      transition: all .3s ease-in-out;
+      border-radius: 16px;
+      &:hover{
+        transform: scale(1.05);
+        box-shadow: 0 0 8px 2px grey;
+      }
+
+      &:active{
+        transform: scale(1);
+      }
+
       &-link {
         max-width: 325px;
         width: 100%;
@@ -45,6 +56,8 @@
           color: #000000;
         }
       }
+
+
     }
   }
 }

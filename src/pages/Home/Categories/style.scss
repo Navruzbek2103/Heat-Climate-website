@@ -47,6 +47,12 @@
         outline: none;
         display: flex;
         align-items: center;
+        transition: all .2s ease-in;
+
+        &:hover{
+          box-shadow: 0 0 2px 1px grey;
+          transform: scale(0.95);
+        }
       }
     }
   }
@@ -70,7 +76,16 @@
       overflow: hidden;
       border-radius: 22px;
       margin: auto;
+      transition: all .3s ease-in-out;
 
+      &:hover{
+        box-shadow: 0 0 10px 2px grey;
+        transform: scale(1.06);
+      }
+
+      &:active{
+        transform: scale(1);
+      }
       &-link {
         height: 100%;
         width: 100%;
@@ -124,7 +139,7 @@
         // padding: 39px 42px 49px;
         overflow: hidden;
 
-        &-img{
+        &-img {
           width: 90%;
         }
       }

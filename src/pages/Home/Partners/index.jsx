@@ -1,6 +1,6 @@
 import React from "react";
 import "./style.scss";
-import Partners from "./Partners";
+import Partners from "./PartnersData";
 import Marquee from "react-fast-marquee";
 import { Link } from "react-router-dom";
 
