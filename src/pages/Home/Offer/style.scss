@@ -19,6 +19,7 @@
       display: flex;
       flex-wrap: wrap;
       gap: 20px;
+      justify-content: flex-start;
     }
 
     &-item {
@@ -26,7 +27,6 @@
       border-radius: 16px;
       &:hover{
         transform: scale(1.05);
-        box-shadow: 0 0 8px 2px grey;
       }
 
       &:active{

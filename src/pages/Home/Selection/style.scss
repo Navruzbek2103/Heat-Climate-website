@@ -25,6 +25,8 @@
     &-list {
       display: flex;
       justify-content: space-between;
+      flex-wrap: wrap;
+      // gap: 20px;
     }
 
     &-item {
@@ -41,6 +43,7 @@
       font-size: 18px;
       line-height: 22px;
       color: #000000;
+      margin: 20px auto;
 
       &::before {
         position: absolute;
