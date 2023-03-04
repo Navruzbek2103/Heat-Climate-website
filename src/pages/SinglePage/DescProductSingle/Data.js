@@ -24,15 +24,15 @@ const data = [
     desc3: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions)."
   },
 
-  {
-    id: 3,
-    menu: "Comments",
-    avatar: "https://picsum.photos/64",
-    username: "Nasibjon Ikromov",
-    userId: 123034,
-    userComment: `By mistake, some - intentionally (for example, humorous variants).`,
-    commentData: `${new Date().getDay()} August ${new Date().getFullYear()} ${new Date().getHours()}:${new Date().getMinutes()}`,
-  },
+  // {
+  //   id: 3,
+  //   menu: "Comments",
+  //   avatar: "https://picsum.photos/64",
+  //   username: "Nasibjon Ikromov",
+  //   userId: 123034,
+  //   userComment: `By mistake, some - intentionally (for example, humorous variants).`,
+  //   commentData: `${new Date().getDay()} August ${new Date().getFullYear()} ${new Date().getHours()}:${new Date().getMinutes()}`,
+  // },
 ]
 
 export default data;

@@ -9,6 +9,7 @@ const index = () => {
     <section className="hero-home">
       <div className="container">
         <div className="hero-home__wrapper">
+
           <HeroSlider />
           <div className="hero-home__wrapper-box">
             <h3 className="hero-home__wrapper-box-title">

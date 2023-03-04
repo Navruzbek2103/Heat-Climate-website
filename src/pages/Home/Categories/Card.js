@@ -100,71 +100,7 @@ import GorelkaCardImg10 from "./../../../assets/images/gorelki/boyler-card-img-1
 
 const CardData = [
 
-  // {
-  //   "Top": [
-  //     {
-  //       id: GeneratorId(),
-  //       productName: "Top-Котлы",
-  //       productPrice: 6400000,
-  //       productBrand: "Artel",
-  //       productImg: [KotyolAristonCardImg1, KotyolAristonCardImg2],
-  //       OsType: "OS type",
-  //       displayType: "Retina",
-  //       diagonal: "6.7",
-  //       camera: "12 Mpx",
-  //     },
 
-  //     {
-  //       id: GeneratorId(),
-  //       productName: "Top-Радиатор",
-  //       productPrice: 6400000,
-  //       productBrand: "Artel",
-  //       productImg: [RadiatorCardImg1, RadiatorCardImg2],
-  //       OsType: "OS type",
-  //       displayType: "Retina",
-  //       diagonal: "6.7",
-  //       camera: "12 Mpx",
-  //     },
-
-  //     {
-  //       id: GeneratorId(),
-  //       productName: "Бойлеры и баки",
-  //       productPrice: 2300000,
-  //       productBrand: "Artel",
-  //       productImg: [BoylerCardImg1, BoylerCardImg2],
-  //       OsType: "OS type",
-  //       displayType: "Retina",
-  //       diagonal: "6.7",
-  //       camera: "12 Mpx",
-  //     },
-
-  //     {
-  //       id: GeneratorId(),
-  //       productName: "Насосы",
-  //       productPrice: 6400000,
-  //       productBrand: "Artel",
-  //       productImg: [NasosCardImg1, NasosCardImg2],
-  //       OsType: "OS type",
-  //       displayType: "Retina",
-  //       diagonal: "6.7",
-  //       camera: "12 Mpx",
-  //     },
-
-  //     {
-  //       id: GeneratorId(),
-  //       productName: "Арматура1",
-  //       productPrice: 6400000,
-  //       productBrand: "Artel",
-  //       productImg: [ArmaturaCardImg1, ArmaturaCardImg2],
-  //       OsType: "OS type",
-  //       displayType: "Retina",
-  //       diagonal: "6.7",
-  //       camera: "12 Mpx",
-  //     },
-
-
-  //   ],
-  // },
 
   {
     "All category": [
@@ -240,14 +176,14 @@ const CardData = [
         camera: "12 Mpx",
       },
 
-    //   const LinkReplaceItemId = ({ itemId }) => {
-    //   const { path } = useRouteMatch();
-    //   const params = useParams();
+      //   const LinkReplaceItemId = ({ itemId }) => {
+      //   const { path } = useRouteMatch();
+      //   const params = useParams();
 
-    //   return (
-    //     <Link to={generatePath(path, { ...params, itemId })}>Link</Link>
-    //   )
-    // }
+      //   return (
+      //     <Link to={generatePath(path, { ...params, itemId })}>Link</Link>
+      //   )
+      // }
       {
         id: GeneratorId(),
         productName: "Горелки1",
@@ -937,7 +873,7 @@ const CardData = [
         productName: "Котлы болшой 1",
         productPrice: 6400000,
         productBrand: "Artel",
-        productImg: [BigKotyolCardImg1, BigKotyolCardImg2 ],
+        productImg: [BigKotyolCardImg1, BigKotyolCardImg2],
         OsType: "OS type",
         displayType: "Retina",
         diagonal: "6.7",
@@ -949,7 +885,7 @@ const CardData = [
         productName: "Котлы болшой 2",
         productPrice: 6400000,
         productBrand: "Artel",
-        productImg: [BigKotyolCardImg2, BigKotyolCardImg3 ],
+        productImg: [BigKotyolCardImg2, BigKotyolCardImg3],
         OsType: "OS type",
         displayType: "Retina",
         diagonal: "6.7",
@@ -961,7 +897,7 @@ const CardData = [
         productName: "Котлы болшой 3",
         productPrice: 6400000,
         productBrand: "Artel",
-        productImg: [BigKotyolCardImg3, BigKotyolCardImg4 ],
+        productImg: [BigKotyolCardImg3, BigKotyolCardImg4],
         OsType: "OS type",
         displayType: "Retina",
         diagonal: "6.7",
@@ -973,7 +909,7 @@ const CardData = [
         productName: "Котлы болшой 4",
         productPrice: 6400000,
         productBrand: "Artel",
-        productImg: [BigKotyolCardImg4, BigKotyolCardImg5 ],
+        productImg: [BigKotyolCardImg4, BigKotyolCardImg5],
         OsType: "OS type",
         displayType: "Retina",
         diagonal: "6.7",
@@ -985,7 +921,7 @@ const CardData = [
         productName: "Котлы болшой 5",
         productPrice: 6400000,
         productBrand: "Artel",
-        productImg: [BigKotyolCardImg5, BigKotyolCardImg6 ],
+        productImg: [BigKotyolCardImg5, BigKotyolCardImg6],
         OsType: "OS type",
         displayType: "Retina",
         diagonal: "6.7",
@@ -997,7 +933,7 @@ const CardData = [
         productName: "Котлы болшой 6",
         productPrice: 6400000,
         productBrand: "Artel",
-        productImg: [BigKotyolCardImg6, BigKotyolCardImg7 ],
+        productImg: [BigKotyolCardImg6, BigKotyolCardImg7],
         OsType: "OS type",
         displayType: "Retina",
         diagonal: "6.7",
@@ -1009,7 +945,7 @@ const CardData = [
         productName: "Котлы болшой 7",
         productPrice: 6400000,
         productBrand: "Artel",
-        productImg: [BigKotyolCardImg7, BigKotyolCardImg8 ],
+        productImg: [BigKotyolCardImg7, BigKotyolCardImg8],
         OsType: "OS type",
         displayType: "Retina",
         diagonal: "6.7",
@@ -1021,7 +957,7 @@ const CardData = [
         productName: "Котлы болшой 8",
         productPrice: 6400000,
         productBrand: "Artel",
-        productImg: [BigKotyolCardImg8, BigKotyolCardImg9 ],
+        productImg: [BigKotyolCardImg8, BigKotyolCardImg9],
         OsType: "OS type",
         displayType: "Retina",
         diagonal: "6.7",
@@ -1033,7 +969,7 @@ const CardData = [
         productName: "Котлы болшой 9",
         productPrice: 2300000,
         productBrand: "Artel",
-        productImg: [BigKotyolCardImg9, BigKotyolCardImg10 ],
+        productImg: [BigKotyolCardImg9, BigKotyolCardImg10],
         OsType: "OS type",
         displayType: "Retina",
         diagonal: "6.7",

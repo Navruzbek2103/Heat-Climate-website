@@ -12,7 +12,7 @@ const index = () => {
       <div className="container-big">
         <div className="recommended-single__wrapper">
           <h2 className="recommended-single__wrapper-title">Recommended</h2>
-          <Marquee pauseOnHover speed={80}>
+          <Marquee pauseOnHover speed={80} >
             <ul className="recommended-single__wrapper-list">
               {CardData.map((el) => {
                 if (Object.keys(el).join() === "Recommended") {

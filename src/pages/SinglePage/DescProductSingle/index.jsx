@@ -19,11 +19,12 @@ const index = () => {
       underlineAbout.current.style.borderBottom = "4px solid #1c2d3f";
       underlineChar.current.style.borderBottom = "4px solid transparent";
       underlineComments.current.style.borderBottom = "4px solid transparent";
-    } else if (menu === "Comments") {
-      underlineComments.current.style.borderBottom = "4px solid #1c2d3f";
-      underlineAbout.current.style.borderBottom = "4px solid transparent";
-      underlineChar.current.style.borderBottom = "4px solid transparent";
     }
+    // else if (menu === "Comments") {
+    //   underlineComments.current.style.borderBottom = "4px solid #1c2d3f";
+    //   underlineAbout.current.style.borderBottom = "4px solid transparent";
+    //   underlineChar.current.style.borderBottom = "4px solid transparent";
+    // }
   };
   const emptyArray = [1, 2, 3, 4];
 
@@ -49,7 +50,7 @@ const index = () => {
               About
             </button>
           </li>
-          <li className="description-singlePage__item">
+          {/* <li className="description-singlePage__item">
             <button
               ref={underlineComments}
               className="description-singlePage__item-btn"
@@ -57,7 +58,7 @@ const index = () => {
             >
               Comments
             </button>
-          </li>
+          </li> */}
         </ul>
         <div className="description-singlePage__wrapper">
           {AllData &&
@@ -427,6 +428,7 @@ const index = () => {
                 }
               }
             )}
+          {console.log(underlineAbout.current)}
         </div>
       </div>
     </section>
