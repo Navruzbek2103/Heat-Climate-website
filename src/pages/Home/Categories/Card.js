@@ -100,7 +100,308 @@ import GorelkaCardImg10 from "./../../../assets/images/gorelki/boyler-card-img-1
 
 const CardData = [
 
+  {
+    NewProducts: [
+      {
+        id: GeneratorId(),
+        productName: "Котлы 0",
+        productCode: "New Котлы",
+        desc: "Котлы для удобной и экономной эксплуатации...",
+        productPrice: 6400000,
+        productBrand: "Artel",
+        productImg: [KotyolAristonCardImg1, KotyolAristonCardImg2],
+        OsType: "OS type",
+        displayType: "Retina",
+        diagonal: "6.7",
+        camera: "12 Mpx",
+        data: [
+          {
+            id: 1,
+            menu: "Characteristics",
+            typeOfInstallation: "Wall",
+            weight1: 30,
+            workingEnvironment: "Water, Glycols",
+            numberOfSIMCard: 2,
+            power: 12,
+            heatedArea: 120,
+            boilerType: "Double circuit",
+            combustionChumberType: "Closed",
+            depth: 299,
+            width: 400,
+            height: 700,
+            weight2: 30,
+          },
 
+          {
+            id: 2,
+            menu: "About",
+            desc1: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions). Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions).",
+            desc2: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions).",
+            desc3: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions)."
+          },
+
+          // {
+          //   id: 3,
+          //   menu: "Comments",
+          //   avatar: "https://picsum.photos/64",
+          //   username: "Nasibjon Ikromov",
+          //   userId: 123034,
+          //   userComment: `By mistake, some - intentionally (for example, humorous variants).`,
+          //   commentData: `${new Date().getDay()} August ${new Date().getFullYear()} ${new Date().getHours()}:${new Date().getMinutes()}`,
+          // },
+        ],
+      },
+
+      {
+        id: GeneratorId(),
+        productName: "Радиатор 0",
+        productCode: "New Радиатор",
+        desc: "Радиатор для удобной и экономной эксплуатации...",
+        productPrice: 6400000,
+        productBrand: "Artel",
+        productImg: [RadiatorCardImg1, RadiatorCardImg2],
+        OsType: "OS type",
+        displayType: "Retina",
+        diagonal: "6.7",
+        camera: "12 Mpx",
+        data: [
+          {
+            id: 1,
+            menu: "Characteristics",
+            typeOfInstallation: "Wall",
+            weight1: 30,
+            workingEnvironment: "Water, Glycols",
+            numberOfSIMCard: 2,
+            power: 12,
+            heatedArea: 120,
+            boilerType: "Double circuit",
+            combustionChumberType: "Closed",
+            depth: 299,
+            width: 400,
+            height: 700,
+            weight2: 30,
+          },
+
+          {
+            id: 2,
+            menu: "About",
+            desc1: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions). Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions).",
+            desc2: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions).",
+            desc3: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions)."
+          },
+
+          // {
+          //   id: 3,
+          //   menu: "Comments",
+          //   avatar: "https://picsum.photos/64",
+          //   username: "Nasibjon Ikromov",
+          //   userId: 123034,
+          //   userComment: `By mistake, some - intentionally (for example, humorous variants).`,
+          //   commentData: `${new Date().getDay()} August ${new Date().getFullYear()} ${new Date().getHours()}:${new Date().getMinutes()}`,
+          // },
+        ],
+      },
+
+      {
+        id: GeneratorId(),
+        productName: "Бойлеры и баки 0",
+        productCode: "New Бойлеры и баки",
+        desc: "Бойлеры и баки для удобной и экономной эксплуатации...",
+        productPrice: 2300000,
+        productBrand: "Artel",
+        productImg: [BoylerCardImg1, BoylerCardImg2],
+        OsType: "OS type",
+        displayType: "Retina",
+        diagonal: "6.7",
+        camera: "12 Mpx",
+        data: [
+          {
+            id: 1,
+            menu: "Characteristics",
+            typeOfInstallation: "Wall",
+            weight1: 30,
+            workingEnvironment: "Water, Glycols",
+            numberOfSIMCard: 2,
+            power: 12,
+            heatedArea: 120,
+            boilerType: "Double circuit",
+            combustionChumberType: "Closed",
+            depth: 299,
+            width: 400,
+            height: 700,
+            weight2: 30,
+          },
+
+          {
+            id: 2,
+            menu: "About",
+            desc1: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions). Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions).",
+            desc2: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions).",
+            desc3: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions)."
+          },
+
+          // {
+          //   id: 3,
+          //   menu: "Comments",
+          //   avatar: "https://picsum.photos/64",
+          //   username: "Nasibjon Ikromov",
+          //   userId: 123034,
+          //   userComment: `By mistake, some - intentionally (for example, humorous variants).`,
+          //   commentData: `${new Date().getDay()} August ${new Date().getFullYear()} ${new Date().getHours()}:${new Date().getMinutes()}`,
+          // },
+        ],
+      },
+
+      {
+        id: GeneratorId(),
+        productName: "Насосы 0",
+        productCode: "New Насосы",
+        desc: "Насосы для удобной и экономной эксплуатации...",
+        productPrice: 6400000,
+        productBrand: "Artel",
+        productImg: [NasosCardImg1, NasosCardImg2],
+        OsType: "OS type",
+        displayType: "Retina",
+        diagonal: "6.7",
+        camera: "12 Mpx",
+        data: [
+          {
+            id: 1,
+            menu: "Characteristics",
+            typeOfInstallation: "Wall",
+            weight1: 30,
+            workingEnvironment: "Water, Glycols",
+            numberOfSIMCard: 2,
+            power: 12,
+            heatedArea: 120,
+            boilerType: "Double circuit",
+            combustionChumberType: "Closed",
+            depth: 299,
+            width: 400,
+            height: 700,
+            weight2: 30,
+          },
+
+          {
+            id: 2,
+            menu: "About",
+            desc1: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions). Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions).",
+            desc2: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions).",
+            desc3: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions)."
+          },
+
+          // {
+          //   id: 3,
+          //   menu: "Comments",
+          //   avatar: "https://picsum.photos/64",
+          //   username: "Nasibjon Ikromov",
+          //   userId: 123034,
+          //   userComment: `By mistake, some - intentionally (for example, humorous variants).`,
+          //   commentData: `${new Date().getDay()} August ${new Date().getFullYear()} ${new Date().getHours()}:${new Date().getMinutes()}`,
+          // },
+        ],
+      },
+
+      {
+        id: GeneratorId(),
+        productName: "Арматура 0",
+        productCode: "New Арматура",
+        desc: "Арматура для удобной и экономной эксплуатации...",
+        productPrice: 6400000,
+        productBrand: "Artel",
+        productImg: [ArmaturaCardImg1, ArmaturaCardImg2],
+        OsType: "OS type",
+        displayType: "Retina",
+        diagonal: "6.7",
+        camera: "12 Mpx",
+        data: [
+          {
+            id: 1,
+            menu: "Characteristics",
+            typeOfInstallation: "Wall",
+            weight1: 30,
+            workingEnvironment: "Water, Glycols",
+            numberOfSIMCard: 2,
+            power: 12,
+            heatedArea: 120,
+            boilerType: "Double circuit",
+            combustionChumberType: "Closed",
+            depth: 299,
+            width: 400,
+            height: 700,
+            weight2: 30,
+          },
+
+          {
+            id: 2,
+            menu: "About",
+            desc1: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions). Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions).",
+            desc2: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions).",
+            desc3: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions)."
+          },
+
+          // {
+          //   id: 3,
+          //   menu: "Comments",
+          //   avatar: "https://picsum.photos/64",
+          //   username: "Nasibjon Ikromov",
+          //   userId: 123034,
+          //   userComment: `By mistake, some - intentionally (for example, humorous variants).`,
+          //   commentData: `${new Date().getDay()} August ${new Date().getFullYear()} ${new Date().getHours()}:${new Date().getMinutes()}`,
+          // },
+        ],
+      },
+      {
+        id: GeneratorId(),
+        productName: "Горелки 0",
+        productCode: "New Горелки",
+        desc: "Горелки для удобной и экономной эксплуатации...",
+        productPrice: 6400000,
+        productBrand: "Artel",
+        productImg: [GorelkaCardImg2, GorelkaCardImg3],
+        OsType: "OS type",
+        displayType: "Retina",
+        diagonal: "6.7",
+        camera: "12 Mpx",
+        data: [
+          {
+            id: 1,
+            menu: "Characteristics",
+            typeOfInstallation: "Wall",
+            weight1: 30,
+            workingEnvironment: "Water, Glycols",
+            numberOfSIMCard: 2,
+            power: 12,
+            heatedArea: 120,
+            boilerType: "Double circuit",
+            combustionChumberType: "Closed",
+            depth: 299,
+            width: 400,
+            height: 700,
+            weight2: 30,
+          },
+
+          {
+            id: 2,
+            menu: "About",
+            desc1: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions). Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions).",
+            desc2: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions).",
+            desc3: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions)."
+          },
+
+          // {
+          //   id: 3,
+          //   menu: "Comments",
+          //   avatar: "https://picsum.photos/64",
+          //   username: "Nasibjon Ikromov",
+          //   userId: 123034,
+          //   userComment: `By mistake, some - intentionally (for example, humorous variants).`,
+          //   commentData: `${new Date().getDay()} August ${new Date().getFullYear()} ${new Date().getHours()}:${new Date().getMinutes()}`,
+          // },
+        ],
+      },
+    ],
+  },
 
   {
     "All category": [
@@ -114,6 +415,42 @@ const CardData = [
         displayType: "Retina",
         diagonal: "6.7",
         camera: "12 Mpx",
+        data: [
+          {
+            id: 1,
+            menu: "Characteristics",
+            typeOfInstallation: "Wall",
+            weight1: 30,
+            workingEnvironment: "Water, Glycols",
+            numberOfSIMCard: 2,
+            power: 12,
+            heatedArea: 120,
+            boilerType: "Double circuit",
+            combustionChumberType: "Closed",
+            depth: 299,
+            width: 400,
+            height: 700,
+            weight2: 30,
+          },
+
+          {
+            id: 2,
+            menu: "About",
+            desc1: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions). Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions).",
+            desc2: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions).",
+            desc3: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions)."
+          },
+
+          // {
+          //   id: 3,
+          //   menu: "Comments",
+          //   avatar: "https://picsum.photos/64",
+          //   username: "Nasibjon Ikromov",
+          //   userId: 123034,
+          //   userComment: `By mistake, some - intentionally (for example, humorous variants).`,
+          //   commentData: `${new Date().getDay()} August ${new Date().getFullYear()} ${new Date().getHours()}:${new Date().getMinutes()}`,
+          // },
+        ],
       },
 
       {
@@ -126,6 +463,42 @@ const CardData = [
         displayType: "Retina",
         diagonal: "6.7",
         camera: "12 Mpx",
+        data: [
+          {
+            id: 1,
+            menu: "Characteristics",
+            typeOfInstallation: "Wall",
+            weight1: 30,
+            workingEnvironment: "Water, Glycols",
+            numberOfSIMCard: 2,
+            power: 12,
+            heatedArea: 120,
+            boilerType: "Double circuit",
+            combustionChumberType: "Closed",
+            depth: 299,
+            width: 400,
+            height: 700,
+            weight2: 30,
+          },
+
+          {
+            id: 2,
+            menu: "About",
+            desc1: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions). Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions).",
+            desc2: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions).",
+            desc3: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions)."
+          },
+
+          // {
+          //   id: 3,
+          //   menu: "Comments",
+          //   avatar: "https://picsum.photos/64",
+          //   username: "Nasibjon Ikromov",
+          //   userId: 123034,
+          //   userComment: `By mistake, some - intentionally (for example, humorous variants).`,
+          //   commentData: `${new Date().getDay()} August ${new Date().getFullYear()} ${new Date().getHours()}:${new Date().getMinutes()}`,
+          // },
+        ],
       },
 
       {
@@ -138,6 +511,42 @@ const CardData = [
         displayType: "Retina",
         diagonal: "6.7",
         camera: "12 Mpx",
+        data: [
+          {
+            id: 1,
+            menu: "Characteristics",
+            typeOfInstallation: "Wall",
+            weight1: 30,
+            workingEnvironment: "Water, Glycols",
+            numberOfSIMCard: 2,
+            power: 12,
+            heatedArea: 120,
+            boilerType: "Double circuit",
+            combustionChumberType: "Closed",
+            depth: 299,
+            width: 400,
+            height: 700,
+            weight2: 30,
+          },
+
+          {
+            id: 2,
+            menu: "About",
+            desc1: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions). Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions).",
+            desc2: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions).",
+            desc3: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions)."
+          },
+
+          // {
+          //   id: 3,
+          //   menu: "Comments",
+          //   avatar: "https://picsum.photos/64",
+          //   username: "Nasibjon Ikromov",
+          //   userId: 123034,
+          //   userComment: `By mistake, some - intentionally (for example, humorous variants).`,
+          //   commentData: `${new Date().getDay()} August ${new Date().getFullYear()} ${new Date().getHours()}:${new Date().getMinutes()}`,
+          // },
+        ],
       },
 
       {
@@ -150,6 +559,42 @@ const CardData = [
         displayType: "Retina",
         diagonal: "6.7",
         camera: "12 Mpx",
+        data: [
+          {
+            id: 1,
+            menu: "Characteristics",
+            typeOfInstallation: "Wall",
+            weight1: 30,
+            workingEnvironment: "Water, Glycols",
+            numberOfSIMCard: 2,
+            power: 12,
+            heatedArea: 120,
+            boilerType: "Double circuit",
+            combustionChumberType: "Closed",
+            depth: 299,
+            width: 400,
+            height: 700,
+            weight2: 30,
+          },
+
+          {
+            id: 2,
+            menu: "About",
+            desc1: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions). Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions).",
+            desc2: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions).",
+            desc3: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions)."
+          },
+
+          // {
+          //   id: 3,
+          //   menu: "Comments",
+          //   avatar: "https://picsum.photos/64",
+          //   username: "Nasibjon Ikromov",
+          //   userId: 123034,
+          //   userComment: `By mistake, some - intentionally (for example, humorous variants).`,
+          //   commentData: `${new Date().getDay()} August ${new Date().getFullYear()} ${new Date().getHours()}:${new Date().getMinutes()}`,
+          // },
+        ],
       },
 
       {
@@ -162,6 +607,42 @@ const CardData = [
         displayType: "Retina",
         diagonal: "6.7",
         camera: "12 Mpx",
+        data: [
+          {
+            id: 1,
+            menu: "Characteristics",
+            typeOfInstallation: "Wall",
+            weight1: 30,
+            workingEnvironment: "Water, Glycols",
+            numberOfSIMCard: 2,
+            power: 12,
+            heatedArea: 120,
+            boilerType: "Double circuit",
+            combustionChumberType: "Closed",
+            depth: 299,
+            width: 400,
+            height: 700,
+            weight2: 30,
+          },
+
+          {
+            id: 2,
+            menu: "About",
+            desc1: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions). Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions).",
+            desc2: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions).",
+            desc3: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions)."
+          },
+
+          // {
+          //   id: 3,
+          //   menu: "Comments",
+          //   avatar: "https://picsum.photos/64",
+          //   username: "Nasibjon Ikromov",
+          //   userId: 123034,
+          //   userComment: `By mistake, some - intentionally (for example, humorous variants).`,
+          //   commentData: `${new Date().getDay()} August ${new Date().getFullYear()} ${new Date().getHours()}:${new Date().getMinutes()}`,
+          // },
+        ],
       },
 
       {
@@ -174,16 +655,44 @@ const CardData = [
         displayType: "Retina",
         diagonal: "6.7",
         camera: "12 Mpx",
+        data: [
+          {
+            id: 1,
+            menu: "Characteristics",
+            typeOfInstallation: "Wall",
+            weight1: 30,
+            workingEnvironment: "Water, Glycols",
+            numberOfSIMCard: 2,
+            power: 12,
+            heatedArea: 120,
+            boilerType: "Double circuit",
+            combustionChumberType: "Closed",
+            depth: 299,
+            width: 400,
+            height: 700,
+            weight2: 30,
+          },
+
+          {
+            id: 2,
+            menu: "About",
+            desc1: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions). Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions).",
+            desc2: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions).",
+            desc3: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions)."
+          },
+
+          // {
+          //   id: 3,
+          //   menu: "Comments",
+          //   avatar: "https://picsum.photos/64",
+          //   username: "Nasibjon Ikromov",
+          //   userId: 123034,
+          //   userComment: `By mistake, some - intentionally (for example, humorous variants).`,
+          //   commentData: `${new Date().getDay()} August ${new Date().getFullYear()} ${new Date().getHours()}:${new Date().getMinutes()}`,
+          // },
+        ],
       },
 
-      //   const LinkReplaceItemId = ({ itemId }) => {
-      //   const { path } = useRouteMatch();
-      //   const params = useParams();
-
-      //   return (
-      //     <Link to={generatePath(path, { ...params, itemId })}>Link</Link>
-      //   )
-      // }
       {
         id: GeneratorId(),
         productName: "Горелки1",
@@ -194,6 +703,42 @@ const CardData = [
         displayType: "Retina",
         diagonal: "6.7",
         camera: "12 Mpx",
+        data: [
+          {
+            id: 1,
+            menu: "Characteristics",
+            typeOfInstallation: "Wall",
+            weight1: 30,
+            workingEnvironment: "Water, Glycols",
+            numberOfSIMCard: 2,
+            power: 12,
+            heatedArea: 120,
+            boilerType: "Double circuit",
+            combustionChumberType: "Closed",
+            depth: 299,
+            width: 400,
+            height: 700,
+            weight2: 30,
+          },
+
+          {
+            id: 2,
+            menu: "About",
+            desc1: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions). Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions).",
+            desc2: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions).",
+            desc3: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions)."
+          },
+
+          // {
+          //   id: 3,
+          //   menu: "Comments",
+          //   avatar: "https://picsum.photos/64",
+          //   username: "Nasibjon Ikromov",
+          //   userId: 123034,
+          //   userComment: `By mistake, some - intentionally (for example, humorous variants).`,
+          //   commentData: `${new Date().getDay()} August ${new Date().getFullYear()} ${new Date().getHours()}:${new Date().getMinutes()}`,
+          // },
+        ],
       },
 
       {
@@ -206,6 +751,42 @@ const CardData = [
         displayType: "Retina",
         diagonal: "6.7",
         camera: "12 Mpx",
+        data: [
+          {
+            id: 1,
+            menu: "Characteristics",
+            typeOfInstallation: "Wall",
+            weight1: 30,
+            workingEnvironment: "Water, Glycols",
+            numberOfSIMCard: 2,
+            power: 12,
+            heatedArea: 120,
+            boilerType: "Double circuit",
+            combustionChumberType: "Closed",
+            depth: 299,
+            width: 400,
+            height: 700,
+            weight2: 30,
+          },
+
+          {
+            id: 2,
+            menu: "About",
+            desc1: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions). Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions).",
+            desc2: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions).",
+            desc3: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions)."
+          },
+
+          // {
+          //   id: 3,
+          //   menu: "Comments",
+          //   avatar: "https://picsum.photos/64",
+          //   username: "Nasibjon Ikromov",
+          //   userId: 123034,
+          //   userComment: `By mistake, some - intentionally (for example, humorous variants).`,
+          //   commentData: `${new Date().getDay()} August ${new Date().getFullYear()} ${new Date().getHours()}:${new Date().getMinutes()}`,
+          // },
+        ],
       },
 
       {
@@ -218,6 +799,42 @@ const CardData = [
         displayType: "Retina",
         diagonal: "6.7",
         camera: "12 Mpx",
+        data: [
+          {
+            id: 1,
+            menu: "Characteristics",
+            typeOfInstallation: "Wall",
+            weight1: 30,
+            workingEnvironment: "Water, Glycols",
+            numberOfSIMCard: 2,
+            power: 12,
+            heatedArea: 120,
+            boilerType: "Double circuit",
+            combustionChumberType: "Closed",
+            depth: 299,
+            width: 400,
+            height: 700,
+            weight2: 30,
+          },
+
+          {
+            id: 2,
+            menu: "About",
+            desc1: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions). Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions).",
+            desc2: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions).",
+            desc3: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions)."
+          },
+
+          // {
+          //   id: 3,
+          //   menu: "Comments",
+          //   avatar: "https://picsum.photos/64",
+          //   username: "Nasibjon Ikromov",
+          //   userId: 123034,
+          //   userComment: `By mistake, some - intentionally (for example, humorous variants).`,
+          //   commentData: `${new Date().getDay()} August ${new Date().getFullYear()} ${new Date().getHours()}:${new Date().getMinutes()}`,
+          // },
+        ],
       },
 
       {
@@ -230,6 +847,42 @@ const CardData = [
         displayType: "Retina",
         diagonal: "6.7",
         camera: "12 Mpx",
+        data: [
+          {
+            id: 1,
+            menu: "Characteristics",
+            typeOfInstallation: "Wall",
+            weight1: 30,
+            workingEnvironment: "Water, Glycols",
+            numberOfSIMCard: 2,
+            power: 12,
+            heatedArea: 120,
+            boilerType: "Double circuit",
+            combustionChumberType: "Closed",
+            depth: 299,
+            width: 400,
+            height: 700,
+            weight2: 30,
+          },
+
+          {
+            id: 2,
+            menu: "About",
+            desc1: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions). Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions).",
+            desc2: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions).",
+            desc3: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions)."
+          },
+
+          // {
+          //   id: 3,
+          //   menu: "Comments",
+          //   avatar: "https://picsum.photos/64",
+          //   username: "Nasibjon Ikromov",
+          //   userId: 123034,
+          //   userComment: `By mistake, some - intentionally (for example, humorous variants).`,
+          //   commentData: `${new Date().getDay()} August ${new Date().getFullYear()} ${new Date().getHours()}:${new Date().getMinutes()}`,
+          // },
+        ],
       },
 
 
@@ -248,6 +901,42 @@ const CardData = [
         displayType: "Retina",
         diagonal: "6.7",
         camera: "12 Mpx",
+        data: [
+          {
+            id: 1,
+            menu: "Characteristics",
+            typeOfInstallation: "Wall",
+            weight1: 30,
+            workingEnvironment: "Water, Glycols",
+            numberOfSIMCard: 2,
+            power: 12,
+            heatedArea: 120,
+            boilerType: "Double circuit",
+            combustionChumberType: "Closed",
+            depth: 299,
+            width: 400,
+            height: 700,
+            weight2: 30,
+          },
+
+          {
+            id: 2,
+            menu: "About",
+            desc1: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions). Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions).",
+            desc2: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions).",
+            desc3: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions)."
+          },
+
+          // {
+          //   id: 3,
+          //   menu: "Comments",
+          //   avatar: "https://picsum.photos/64",
+          //   username: "Nasibjon Ikromov",
+          //   userId: 123034,
+          //   userComment: `By mistake, some - intentionally (for example, humorous variants).`,
+          //   commentData: `${new Date().getDay()} August ${new Date().getFullYear()} ${new Date().getHours()}:${new Date().getMinutes()}`,
+          // },
+        ]
       },
 
       {
@@ -260,6 +949,42 @@ const CardData = [
         displayType: "Retina",
         diagonal: "6.7",
         camera: "12 Mpx",
+        data: [
+          {
+            id: 1,
+            menu: "Characteristics",
+            typeOfInstallation: "Wall",
+            weight1: 30,
+            workingEnvironment: "Water, Glycols",
+            numberOfSIMCard: 2,
+            power: 12,
+            heatedArea: 120,
+            boilerType: "Double circuit",
+            combustionChumberType: "Closed",
+            depth: 299,
+            width: 400,
+            height: 700,
+            weight2: 30,
+          },
+
+          {
+            id: 2,
+            menu: "About",
+            desc1: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions). Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions).",
+            desc2: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions).",
+            desc3: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions)."
+          },
+
+          // {
+          //   id: 3,
+          //   menu: "Comments",
+          //   avatar: "https://picsum.photos/64",
+          //   username: "Nasibjon Ikromov",
+          //   userId: 123034,
+          //   userComment: `By mistake, some - intentionally (for example, humorous variants).`,
+          //   commentData: `${new Date().getDay()} August ${new Date().getFullYear()} ${new Date().getHours()}:${new Date().getMinutes()}`,
+          // },
+        ]
       },
 
       {
@@ -272,6 +997,42 @@ const CardData = [
         displayType: "Retina",
         diagonal: "6.7",
         camera: "12 Mpx",
+        data: [
+          {
+            id: 1,
+            menu: "Characteristics",
+            typeOfInstallation: "Wall",
+            weight1: 30,
+            workingEnvironment: "Water, Glycols",
+            numberOfSIMCard: 2,
+            power: 12,
+            heatedArea: 120,
+            boilerType: "Double circuit",
+            combustionChumberType: "Closed",
+            depth: 299,
+            width: 400,
+            height: 700,
+            weight2: 30,
+          },
+
+          {
+            id: 2,
+            menu: "About",
+            desc1: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions). Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions).",
+            desc2: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions).",
+            desc3: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions)."
+          },
+
+          // {
+          //   id: 3,
+          //   menu: "Comments",
+          //   avatar: "https://picsum.photos/64",
+          //   username: "Nasibjon Ikromov",
+          //   userId: 123034,
+          //   userComment: `By mistake, some - intentionally (for example, humorous variants).`,
+          //   commentData: `${new Date().getDay()} August ${new Date().getFullYear()} ${new Date().getHours()}:${new Date().getMinutes()}`,
+          // },
+        ]
       },
 
       {
@@ -284,6 +1045,42 @@ const CardData = [
         displayType: "Retina",
         diagonal: "6.7",
         camera: "12 Mpx",
+        data: [
+          {
+            id: 1,
+            menu: "Characteristics",
+            typeOfInstallation: "Wall",
+            weight1: 30,
+            workingEnvironment: "Water, Glycols",
+            numberOfSIMCard: 2,
+            power: 12,
+            heatedArea: 120,
+            boilerType: "Double circuit",
+            combustionChumberType: "Closed",
+            depth: 299,
+            width: 400,
+            height: 700,
+            weight2: 30,
+          },
+
+          {
+            id: 2,
+            menu: "About",
+            desc1: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions). Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions).",
+            desc2: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions).",
+            desc3: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions)."
+          },
+
+          // {
+          //   id: 3,
+          //   menu: "Comments",
+          //   avatar: "https://picsum.photos/64",
+          //   username: "Nasibjon Ikromov",
+          //   userId: 123034,
+          //   userComment: `By mistake, some - intentionally (for example, humorous variants).`,
+          //   commentData: `${new Date().getDay()} August ${new Date().getFullYear()} ${new Date().getHours()}:${new Date().getMinutes()}`,
+          // },
+        ]
       },
 
       {
@@ -296,6 +1093,42 @@ const CardData = [
         displayType: "Retina",
         diagonal: "8",
         camera: "8 Mpx",
+        data: [
+          {
+            id: 1,
+            menu: "Characteristics",
+            typeOfInstallation: "Wall",
+            weight1: 30,
+            workingEnvironment: "Water, Glycols",
+            numberOfSIMCard: 2,
+            power: 12,
+            heatedArea: 120,
+            boilerType: "Double circuit",
+            combustionChumberType: "Closed",
+            depth: 299,
+            width: 400,
+            height: 700,
+            weight2: 30,
+          },
+
+          {
+            id: 2,
+            menu: "About",
+            desc1: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions). Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions).",
+            desc2: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions).",
+            desc3: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions)."
+          },
+
+          // {
+          //   id: 3,
+          //   menu: "Comments",
+          //   avatar: "https://picsum.photos/64",
+          //   username: "Nasibjon Ikromov",
+          //   userId: 123034,
+          //   userComment: `By mistake, some - intentionally (for example, humorous variants).`,
+          //   commentData: `${new Date().getDay()} August ${new Date().getFullYear()} ${new Date().getHours()}:${new Date().getMinutes()}`,
+          // },
+        ]
       },
 
       {
@@ -308,6 +1141,42 @@ const CardData = [
         // displayType: "Retina",
         diagonal: "9",
         camera: "15 Mpx",
+        data: [
+          {
+            id: 1,
+            menu: "Characteristics",
+            typeOfInstallation: "Wall",
+            weight1: 30,
+            workingEnvironment: "Water, Glycols",
+            numberOfSIMCard: 2,
+            power: 12,
+            heatedArea: 120,
+            boilerType: "Double circuit",
+            combustionChumberType: "Closed",
+            depth: 299,
+            width: 400,
+            height: 700,
+            weight2: 30,
+          },
+
+          {
+            id: 2,
+            menu: "About",
+            desc1: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions). Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions).",
+            desc2: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions).",
+            desc3: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions)."
+          },
+
+          // {
+          //   id: 3,
+          //   menu: "Comments",
+          //   avatar: "https://picsum.photos/64",
+          //   username: "Nasibjon Ikromov",
+          //   userId: 123034,
+          //   userComment: `By mistake, some - intentionally (for example, humorous variants).`,
+          //   commentData: `${new Date().getDay()} August ${new Date().getFullYear()} ${new Date().getHours()}:${new Date().getMinutes()}`,
+          // },
+        ]
       },
 
       {
@@ -320,6 +1189,42 @@ const CardData = [
         // displayType: "Retina",
         // diagonal: "6.7",
         camera: "12 Mpx",
+        data: [
+          {
+            id: 1,
+            menu: "Characteristics",
+            typeOfInstallation: "Wall",
+            weight1: 30,
+            workingEnvironment: "Water, Glycols",
+            numberOfSIMCard: 2,
+            power: 12,
+            heatedArea: 120,
+            boilerType: "Double circuit",
+            combustionChumberType: "Closed",
+            depth: 299,
+            width: 400,
+            height: 700,
+            weight2: 30,
+          },
+
+          {
+            id: 2,
+            menu: "About",
+            desc1: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions). Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions).",
+            desc2: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions).",
+            desc3: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions)."
+          },
+
+          // {
+          //   id: 3,
+          //   menu: "Comments",
+          //   avatar: "https://picsum.photos/64",
+          //   username: "Nasibjon Ikromov",
+          //   userId: 123034,
+          //   userComment: `By mistake, some - intentionally (for example, humorous variants).`,
+          //   commentData: `${new Date().getDay()} August ${new Date().getFullYear()} ${new Date().getHours()}:${new Date().getMinutes()}`,
+          // },
+        ]
       },
 
       {
@@ -332,6 +1237,42 @@ const CardData = [
         // displayType: "Retina",
         diagonal: "6.7",
         camera: "32 Mpx",
+        data: [
+          {
+            id: 1,
+            menu: "Characteristics",
+            typeOfInstallation: "Wall",
+            weight1: 30,
+            workingEnvironment: "Water, Glycols",
+            numberOfSIMCard: 2,
+            power: 12,
+            heatedArea: 120,
+            boilerType: "Double circuit",
+            combustionChumberType: "Closed",
+            depth: 299,
+            width: 400,
+            height: 700,
+            weight2: 30,
+          },
+
+          {
+            id: 2,
+            menu: "About",
+            desc1: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions). Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions).",
+            desc2: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions).",
+            desc3: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions)."
+          },
+
+          // {
+          //   id: 3,
+          //   menu: "Comments",
+          //   avatar: "https://picsum.photos/64",
+          //   username: "Nasibjon Ikromov",
+          //   userId: 123034,
+          //   userComment: `By mistake, some - intentionally (for example, humorous variants).`,
+          //   commentData: `${new Date().getDay()} August ${new Date().getFullYear()} ${new Date().getHours()}:${new Date().getMinutes()}`,
+          // },
+        ]
       },
 
       {
@@ -344,6 +1285,42 @@ const CardData = [
         displayType: "Retina",
         diagonal: "6.7",
         camera: "12 Mpx",
+        data: [
+          {
+            id: 1,
+            menu: "Characteristics",
+            typeOfInstallation: "Wall",
+            weight1: 30,
+            workingEnvironment: "Water, Glycols",
+            numberOfSIMCard: 2,
+            power: 12,
+            heatedArea: 120,
+            boilerType: "Double circuit",
+            combustionChumberType: "Closed",
+            depth: 299,
+            width: 400,
+            height: 700,
+            weight2: 30,
+          },
+
+          {
+            id: 2,
+            menu: "About",
+            desc1: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions). Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions).",
+            desc2: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions).",
+            desc3: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions)."
+          },
+
+          // {
+          //   id: 3,
+          //   menu: "Comments",
+          //   avatar: "https://picsum.photos/64",
+          //   username: "Nasibjon Ikromov",
+          //   userId: 123034,
+          //   userComment: `By mistake, some - intentionally (for example, humorous variants).`,
+          //   commentData: `${new Date().getDay()} August ${new Date().getFullYear()} ${new Date().getHours()}:${new Date().getMinutes()}`,
+          // },
+        ]
       },
 
       {
@@ -356,6 +1333,42 @@ const CardData = [
         displayType: "Retina",
         diagonal: "6.7",
         camera: "12 Mpx",
+        data: [
+          {
+            id: 1,
+            menu: "Characteristics",
+            typeOfInstallation: "Wall",
+            weight1: 30,
+            workingEnvironment: "Water, Glycols",
+            numberOfSIMCard: 2,
+            power: 12,
+            heatedArea: 120,
+            boilerType: "Double circuit",
+            combustionChumberType: "Closed",
+            depth: 299,
+            width: 400,
+            height: 700,
+            weight2: 30,
+          },
+
+          {
+            id: 2,
+            menu: "About",
+            desc1: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions). Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions).",
+            desc2: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions).",
+            desc3: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions)."
+          },
+
+          // {
+          //   id: 3,
+          //   menu: "Comments",
+          //   avatar: "https://picsum.photos/64",
+          //   username: "Nasibjon Ikromov",
+          //   userId: 123034,
+          //   userComment: `By mistake, some - intentionally (for example, humorous variants).`,
+          //   commentData: `${new Date().getDay()} August ${new Date().getFullYear()} ${new Date().getHours()}:${new Date().getMinutes()}`,
+          // },
+        ]
       },
 
 
@@ -374,6 +1387,42 @@ const CardData = [
         displayType: "Retina",
         diagonal: "6.7",
         camera: "12 Mpx",
+        data: [
+          {
+            id: 1,
+            menu: "Characteristics",
+            typeOfInstallation: "Wall",
+            weight1: 30,
+            workingEnvironment: "Water, Glycols",
+            numberOfSIMCard: 2,
+            power: 12,
+            heatedArea: 120,
+            boilerType: "Double circuit",
+            combustionChumberType: "Closed",
+            depth: 299,
+            width: 400,
+            height: 700,
+            weight2: 30,
+          },
+
+          {
+            id: 2,
+            menu: "About",
+            desc1: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions). Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions).",
+            desc2: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions).",
+            desc3: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions)."
+          },
+
+          // {
+          //   id: 3,
+          //   menu: "Comments",
+          //   avatar: "https://picsum.photos/64",
+          //   username: "Nasibjon Ikromov",
+          //   userId: 123034,
+          //   userComment: `By mistake, some - intentionally (for example, humorous variants).`,
+          //   commentData: `${new Date().getDay()} August ${new Date().getFullYear()} ${new Date().getHours()}:${new Date().getMinutes()}`,
+          // },
+        ]
       },
 
       {
@@ -386,6 +1435,42 @@ const CardData = [
         displayType: "Retina",
         diagonal: "6.7",
         camera: "12 Mpx",
+        data: [
+          {
+            id: 1,
+            menu: "Characteristics",
+            typeOfInstallation: "Wall",
+            weight1: 30,
+            workingEnvironment: "Water, Glycols",
+            numberOfSIMCard: 2,
+            power: 12,
+            heatedArea: 120,
+            boilerType: "Double circuit",
+            combustionChumberType: "Closed",
+            depth: 299,
+            width: 400,
+            height: 700,
+            weight2: 30,
+          },
+
+          {
+            id: 2,
+            menu: "About",
+            desc1: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions). Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions).",
+            desc2: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions).",
+            desc3: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions)."
+          },
+
+          // {
+          //   id: 3,
+          //   menu: "Comments",
+          //   avatar: "https://picsum.photos/64",
+          //   username: "Nasibjon Ikromov",
+          //   userId: 123034,
+          //   userComment: `By mistake, some - intentionally (for example, humorous variants).`,
+          //   commentData: `${new Date().getDay()} August ${new Date().getFullYear()} ${new Date().getHours()}:${new Date().getMinutes()}`,
+          // },
+        ]
       },
 
       {
@@ -398,6 +1483,42 @@ const CardData = [
         displayType: "Retina",
         diagonal: "6.7",
         camera: "12 Mpx",
+        data: [
+          {
+            id: 1,
+            menu: "Characteristics",
+            typeOfInstallation: "Wall",
+            weight1: 30,
+            workingEnvironment: "Water, Glycols",
+            numberOfSIMCard: 2,
+            power: 12,
+            heatedArea: 120,
+            boilerType: "Double circuit",
+            combustionChumberType: "Closed",
+            depth: 299,
+            width: 400,
+            height: 700,
+            weight2: 30,
+          },
+
+          {
+            id: 2,
+            menu: "About",
+            desc1: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions). Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions).",
+            desc2: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions).",
+            desc3: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions)."
+          },
+
+          // {
+          //   id: 3,
+          //   menu: "Comments",
+          //   avatar: "https://picsum.photos/64",
+          //   username: "Nasibjon Ikromov",
+          //   userId: 123034,
+          //   userComment: `By mistake, some - intentionally (for example, humorous variants).`,
+          //   commentData: `${new Date().getDay()} August ${new Date().getFullYear()} ${new Date().getHours()}:${new Date().getMinutes()}`,
+          // },
+        ]
       },
 
       {
@@ -410,6 +1531,42 @@ const CardData = [
         displayType: "Retina",
         diagonal: "6.7",
         camera: "12 Mpx",
+        data: [
+          {
+            id: 1,
+            menu: "Characteristics",
+            typeOfInstallation: "Wall",
+            weight1: 30,
+            workingEnvironment: "Water, Glycols",
+            numberOfSIMCard: 2,
+            power: 12,
+            heatedArea: 120,
+            boilerType: "Double circuit",
+            combustionChumberType: "Closed",
+            depth: 299,
+            width: 400,
+            height: 700,
+            weight2: 30,
+          },
+
+          {
+            id: 2,
+            menu: "About",
+            desc1: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions). Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions).",
+            desc2: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions).",
+            desc3: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions)."
+          },
+
+          // {
+          //   id: 3,
+          //   menu: "Comments",
+          //   avatar: "https://picsum.photos/64",
+          //   username: "Nasibjon Ikromov",
+          //   userId: 123034,
+          //   userComment: `By mistake, some - intentionally (for example, humorous variants).`,
+          //   commentData: `${new Date().getDay()} August ${new Date().getFullYear()} ${new Date().getHours()}:${new Date().getMinutes()}`,
+          // },
+        ]
       },
 
       {
@@ -422,6 +1579,42 @@ const CardData = [
         displayType: "Retina",
         diagonal: "6.7",
         camera: "12 Mpx",
+        data: [
+          {
+            id: 1,
+            menu: "Characteristics",
+            typeOfInstallation: "Wall",
+            weight1: 30,
+            workingEnvironment: "Water, Glycols",
+            numberOfSIMCard: 2,
+            power: 12,
+            heatedArea: 120,
+            boilerType: "Double circuit",
+            combustionChumberType: "Closed",
+            depth: 299,
+            width: 400,
+            height: 700,
+            weight2: 30,
+          },
+
+          {
+            id: 2,
+            menu: "About",
+            desc1: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions). Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions).",
+            desc2: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions).",
+            desc3: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions)."
+          },
+
+          // {
+          //   id: 3,
+          //   menu: "Comments",
+          //   avatar: "https://picsum.photos/64",
+          //   username: "Nasibjon Ikromov",
+          //   userId: 123034,
+          //   userComment: `By mistake, some - intentionally (for example, humorous variants).`,
+          //   commentData: `${new Date().getDay()} August ${new Date().getFullYear()} ${new Date().getHours()}:${new Date().getMinutes()}`,
+          // },
+        ]
       },
 
       {
@@ -434,6 +1627,42 @@ const CardData = [
         displayType: "Retina",
         diagonal: "6.7",
         camera: "12 Mpx",
+        data: [
+          {
+            id: 1,
+            menu: "Characteristics",
+            typeOfInstallation: "Wall",
+            weight1: 30,
+            workingEnvironment: "Water, Glycols",
+            numberOfSIMCard: 2,
+            power: 12,
+            heatedArea: 120,
+            boilerType: "Double circuit",
+            combustionChumberType: "Closed",
+            depth: 299,
+            width: 400,
+            height: 700,
+            weight2: 30,
+          },
+
+          {
+            id: 2,
+            menu: "About",
+            desc1: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions). Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions).",
+            desc2: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions).",
+            desc3: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions)."
+          },
+
+          // {
+          //   id: 3,
+          //   menu: "Comments",
+          //   avatar: "https://picsum.photos/64",
+          //   username: "Nasibjon Ikromov",
+          //   userId: 123034,
+          //   userComment: `By mistake, some - intentionally (for example, humorous variants).`,
+          //   commentData: `${new Date().getDay()} August ${new Date().getFullYear()} ${new Date().getHours()}:${new Date().getMinutes()}`,
+          // },
+        ]
       },
 
       {
@@ -446,6 +1675,42 @@ const CardData = [
         displayType: "Retina",
         diagonal: "6.7",
         camera: "12 Mpx",
+        data: [
+          {
+            id: 1,
+            menu: "Characteristics",
+            typeOfInstallation: "Wall",
+            weight1: 30,
+            workingEnvironment: "Water, Glycols",
+            numberOfSIMCard: 2,
+            power: 12,
+            heatedArea: 120,
+            boilerType: "Double circuit",
+            combustionChumberType: "Closed",
+            depth: 299,
+            width: 400,
+            height: 700,
+            weight2: 30,
+          },
+
+          {
+            id: 2,
+            menu: "About",
+            desc1: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions). Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions).",
+            desc2: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions).",
+            desc3: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions)."
+          },
+
+          // {
+          //   id: 3,
+          //   menu: "Comments",
+          //   avatar: "https://picsum.photos/64",
+          //   username: "Nasibjon Ikromov",
+          //   userId: 123034,
+          //   userComment: `By mistake, some - intentionally (for example, humorous variants).`,
+          //   commentData: `${new Date().getDay()} August ${new Date().getFullYear()} ${new Date().getHours()}:${new Date().getMinutes()}`,
+          // },
+        ]
       },
 
       {
@@ -458,6 +1723,42 @@ const CardData = [
         displayType: "Retina",
         diagonal: "6.7",
         camera: "12 Mpx",
+        data: [
+          {
+            id: 1,
+            menu: "Characteristics",
+            typeOfInstallation: "Wall",
+            weight1: 30,
+            workingEnvironment: "Water, Glycols",
+            numberOfSIMCard: 2,
+            power: 12,
+            heatedArea: 120,
+            boilerType: "Double circuit",
+            combustionChumberType: "Closed",
+            depth: 299,
+            width: 400,
+            height: 700,
+            weight2: 30,
+          },
+
+          {
+            id: 2,
+            menu: "About",
+            desc1: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions). Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions).",
+            desc2: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions).",
+            desc3: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions)."
+          },
+
+          // {
+          //   id: 3,
+          //   menu: "Comments",
+          //   avatar: "https://picsum.photos/64",
+          //   username: "Nasibjon Ikromov",
+          //   userId: 123034,
+          //   userComment: `By mistake, some - intentionally (for example, humorous variants).`,
+          //   commentData: `${new Date().getDay()} August ${new Date().getFullYear()} ${new Date().getHours()}:${new Date().getMinutes()}`,
+          // },
+        ]
       },
 
       {
@@ -470,6 +1771,42 @@ const CardData = [
         displayType: "Retina",
         diagonal: "6.7",
         camera: "12 Mpx",
+        data: [
+          {
+            id: 1,
+            menu: "Characteristics",
+            typeOfInstallation: "Wall",
+            weight1: 30,
+            workingEnvironment: "Water, Glycols",
+            numberOfSIMCard: 2,
+            power: 12,
+            heatedArea: 120,
+            boilerType: "Double circuit",
+            combustionChumberType: "Closed",
+            depth: 299,
+            width: 400,
+            height: 700,
+            weight2: 30,
+          },
+
+          {
+            id: 2,
+            menu: "About",
+            desc1: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions). Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions).",
+            desc2: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions).",
+            desc3: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions)."
+          },
+
+          // {
+          //   id: 3,
+          //   menu: "Comments",
+          //   avatar: "https://picsum.photos/64",
+          //   username: "Nasibjon Ikromov",
+          //   userId: 123034,
+          //   userComment: `By mistake, some - intentionally (for example, humorous variants).`,
+          //   commentData: `${new Date().getDay()} August ${new Date().getFullYear()} ${new Date().getHours()}:${new Date().getMinutes()}`,
+          // },
+        ]
       },
 
       {
@@ -482,6 +1819,42 @@ const CardData = [
         displayType: "Retina",
         diagonal: "6.7",
         camera: "12 Mpx",
+        data: [
+          {
+            id: 1,
+            menu: "Characteristics",
+            typeOfInstallation: "Wall",
+            weight1: 30,
+            workingEnvironment: "Water, Glycols",
+            numberOfSIMCard: 2,
+            power: 12,
+            heatedArea: 120,
+            boilerType: "Double circuit",
+            combustionChumberType: "Closed",
+            depth: 299,
+            width: 400,
+            height: 700,
+            weight2: 30,
+          },
+
+          {
+            id: 2,
+            menu: "About",
+            desc1: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions). Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions).",
+            desc2: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions).",
+            desc3: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions)."
+          },
+
+          // {
+          //   id: 3,
+          //   menu: "Comments",
+          //   avatar: "https://picsum.photos/64",
+          //   username: "Nasibjon Ikromov",
+          //   userId: 123034,
+          //   userComment: `By mistake, some - intentionally (for example, humorous variants).`,
+          //   commentData: `${new Date().getDay()} August ${new Date().getFullYear()} ${new Date().getHours()}:${new Date().getMinutes()}`,
+          // },
+        ]
       },
 
 
@@ -500,6 +1873,42 @@ const CardData = [
         displayType: "Retina",
         diagonal: "6.7",
         camera: "12 Mpx",
+        data: [
+          {
+            id: 1,
+            menu: "Characteristics",
+            typeOfInstallation: "Wall",
+            weight1: 30,
+            workingEnvironment: "Water, Glycols",
+            numberOfSIMCard: 2,
+            power: 12,
+            heatedArea: 120,
+            boilerType: "Double circuit",
+            combustionChumberType: "Closed",
+            depth: 299,
+            width: 400,
+            height: 700,
+            weight2: 30,
+          },
+
+          {
+            id: 2,
+            menu: "About",
+            desc1: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions). Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions).",
+            desc2: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions).",
+            desc3: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions)."
+          },
+
+          // {
+          //   id: 3,
+          //   menu: "Comments",
+          //   avatar: "https://picsum.photos/64",
+          //   username: "Nasibjon Ikromov",
+          //   userId: 123034,
+          //   userComment: `By mistake, some - intentionally (for example, humorous variants).`,
+          //   commentData: `${new Date().getDay()} August ${new Date().getFullYear()} ${new Date().getHours()}:${new Date().getMinutes()}`,
+          // },
+        ]
       },
 
       {
@@ -512,6 +1921,42 @@ const CardData = [
         displayType: "Retina",
         diagonal: "6.7",
         camera: "12 Mpx",
+        data: [
+          {
+            id: 1,
+            menu: "Characteristics",
+            typeOfInstallation: "Wall",
+            weight1: 30,
+            workingEnvironment: "Water, Glycols",
+            numberOfSIMCard: 2,
+            power: 12,
+            heatedArea: 120,
+            boilerType: "Double circuit",
+            combustionChumberType: "Closed",
+            depth: 299,
+            width: 400,
+            height: 700,
+            weight2: 30,
+          },
+
+          {
+            id: 2,
+            menu: "About",
+            desc1: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions). Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions).",
+            desc2: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions).",
+            desc3: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions)."
+          },
+
+          // {
+          //   id: 3,
+          //   menu: "Comments",
+          //   avatar: "https://picsum.photos/64",
+          //   username: "Nasibjon Ikromov",
+          //   userId: 123034,
+          //   userComment: `By mistake, some - intentionally (for example, humorous variants).`,
+          //   commentData: `${new Date().getDay()} August ${new Date().getFullYear()} ${new Date().getHours()}:${new Date().getMinutes()}`,
+          // },
+        ]
       },
 
       {
@@ -524,6 +1969,42 @@ const CardData = [
         displayType: "Retina",
         diagonal: "6.7",
         camera: "12 Mpx",
+        data: [
+          {
+            id: 1,
+            menu: "Characteristics",
+            typeOfInstallation: "Wall",
+            weight1: 30,
+            workingEnvironment: "Water, Glycols",
+            numberOfSIMCard: 2,
+            power: 12,
+            heatedArea: 120,
+            boilerType: "Double circuit",
+            combustionChumberType: "Closed",
+            depth: 299,
+            width: 400,
+            height: 700,
+            weight2: 30,
+          },
+
+          {
+            id: 2,
+            menu: "About",
+            desc1: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions). Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions).",
+            desc2: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions).",
+            desc3: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions)."
+          },
+
+          // {
+          //   id: 3,
+          //   menu: "Comments",
+          //   avatar: "https://picsum.photos/64",
+          //   username: "Nasibjon Ikromov",
+          //   userId: 123034,
+          //   userComment: `By mistake, some - intentionally (for example, humorous variants).`,
+          //   commentData: `${new Date().getDay()} August ${new Date().getFullYear()} ${new Date().getHours()}:${new Date().getMinutes()}`,
+          // },
+        ]
       },
 
       {
@@ -536,6 +2017,42 @@ const CardData = [
         displayType: "Retina",
         diagonal: "6.7",
         camera: "12 Mpx",
+        data: [
+          {
+            id: 1,
+            menu: "Characteristics",
+            typeOfInstallation: "Wall",
+            weight1: 30,
+            workingEnvironment: "Water, Glycols",
+            numberOfSIMCard: 2,
+            power: 12,
+            heatedArea: 120,
+            boilerType: "Double circuit",
+            combustionChumberType: "Closed",
+            depth: 299,
+            width: 400,
+            height: 700,
+            weight2: 30,
+          },
+
+          {
+            id: 2,
+            menu: "About",
+            desc1: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions). Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions).",
+            desc2: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions).",
+            desc3: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions)."
+          },
+
+          // {
+          //   id: 3,
+          //   menu: "Comments",
+          //   avatar: "https://picsum.photos/64",
+          //   username: "Nasibjon Ikromov",
+          //   userId: 123034,
+          //   userComment: `By mistake, some - intentionally (for example, humorous variants).`,
+          //   commentData: `${new Date().getDay()} August ${new Date().getFullYear()} ${new Date().getHours()}:${new Date().getMinutes()}`,
+          // },
+        ]
       },
 
       {
@@ -548,6 +2065,42 @@ const CardData = [
         displayType: "Retina",
         // diagonal: "6.7",
         // camera: "12 Mpx",
+        data: [
+          {
+            id: 1,
+            menu: "Characteristics",
+            typeOfInstallation: "Wall",
+            weight1: 30,
+            workingEnvironment: "Water, Glycols",
+            numberOfSIMCard: 2,
+            power: 12,
+            heatedArea: 120,
+            boilerType: "Double circuit",
+            combustionChumberType: "Closed",
+            depth: 299,
+            width: 400,
+            height: 700,
+            weight2: 30,
+          },
+
+          {
+            id: 2,
+            menu: "About",
+            desc1: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions). Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions).",
+            desc2: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions).",
+            desc3: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions)."
+          },
+
+          // {
+          //   id: 3,
+          //   menu: "Comments",
+          //   avatar: "https://picsum.photos/64",
+          //   username: "Nasibjon Ikromov",
+          //   userId: 123034,
+          //   userComment: `By mistake, some - intentionally (for example, humorous variants).`,
+          //   commentData: `${new Date().getDay()} August ${new Date().getFullYear()} ${new Date().getHours()}:${new Date().getMinutes()}`,
+          // },
+        ]
       },
 
       {
@@ -560,6 +2113,42 @@ const CardData = [
         // displayType: "Retina",
         diagonal: "6.7",
         camera: "12 Mpx",
+        data: [
+          {
+            id: 1,
+            menu: "Characteristics",
+            typeOfInstallation: "Wall",
+            weight1: 30,
+            workingEnvironment: "Water, Glycols",
+            numberOfSIMCard: 2,
+            power: 12,
+            heatedArea: 120,
+            boilerType: "Double circuit",
+            combustionChumberType: "Closed",
+            depth: 299,
+            width: 400,
+            height: 700,
+            weight2: 30,
+          },
+
+          {
+            id: 2,
+            menu: "About",
+            desc1: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions). Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions).",
+            desc2: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions).",
+            desc3: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions)."
+          },
+
+          // {
+          //   id: 3,
+          //   menu: "Comments",
+          //   avatar: "https://picsum.photos/64",
+          //   username: "Nasibjon Ikromov",
+          //   userId: 123034,
+          //   userComment: `By mistake, some - intentionally (for example, humorous variants).`,
+          //   commentData: `${new Date().getDay()} August ${new Date().getFullYear()} ${new Date().getHours()}:${new Date().getMinutes()}`,
+          // },
+        ]
       },
 
       {
@@ -572,6 +2161,42 @@ const CardData = [
         // displayType: "Retina",
         diagonal: "6.7",
         camera: "12 Mpx",
+        data: [
+          {
+            id: 1,
+            menu: "Characteristics",
+            typeOfInstallation: "Wall",
+            weight1: 30,
+            workingEnvironment: "Water, Glycols",
+            numberOfSIMCard: 2,
+            power: 12,
+            heatedArea: 120,
+            boilerType: "Double circuit",
+            combustionChumberType: "Closed",
+            depth: 299,
+            width: 400,
+            height: 700,
+            weight2: 30,
+          },
+
+          {
+            id: 2,
+            menu: "About",
+            desc1: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions). Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions).",
+            desc2: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions).",
+            desc3: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions)."
+          },
+
+          // {
+          //   id: 3,
+          //   menu: "Comments",
+          //   avatar: "https://picsum.photos/64",
+          //   username: "Nasibjon Ikromov",
+          //   userId: 123034,
+          //   userComment: `By mistake, some - intentionally (for example, humorous variants).`,
+          //   commentData: `${new Date().getDay()} August ${new Date().getFullYear()} ${new Date().getHours()}:${new Date().getMinutes()}`,
+          // },
+        ]
       },
 
       {
@@ -584,6 +2209,42 @@ const CardData = [
         displayType: "Retina",
         diagonal: "6.7",
         camera: "12 Mpx",
+        data: [
+          {
+            id: 1,
+            menu: "Characteristics",
+            typeOfInstallation: "Wall",
+            weight1: 30,
+            workingEnvironment: "Water, Glycols",
+            numberOfSIMCard: 2,
+            power: 12,
+            heatedArea: 120,
+            boilerType: "Double circuit",
+            combustionChumberType: "Closed",
+            depth: 299,
+            width: 400,
+            height: 700,
+            weight2: 30,
+          },
+
+          {
+            id: 2,
+            menu: "About",
+            desc1: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions). Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions).",
+            desc2: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions).",
+            desc3: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions)."
+          },
+
+          // {
+          //   id: 3,
+          //   menu: "Comments",
+          //   avatar: "https://picsum.photos/64",
+          //   username: "Nasibjon Ikromov",
+          //   userId: 123034,
+          //   userComment: `By mistake, some - intentionally (for example, humorous variants).`,
+          //   commentData: `${new Date().getDay()} August ${new Date().getFullYear()} ${new Date().getHours()}:${new Date().getMinutes()}`,
+          // },
+        ]
       },
 
       {
@@ -596,6 +2257,42 @@ const CardData = [
         displayType: "Retina",
         diagonal: "6.7",
         camera: "12 Mpx",
+        data: [
+          {
+            id: 1,
+            menu: "Characteristics",
+            typeOfInstallation: "Wall",
+            weight1: 30,
+            workingEnvironment: "Water, Glycols",
+            numberOfSIMCard: 2,
+            power: 12,
+            heatedArea: 120,
+            boilerType: "Double circuit",
+            combustionChumberType: "Closed",
+            depth: 299,
+            width: 400,
+            height: 700,
+            weight2: 30,
+          },
+
+          {
+            id: 2,
+            menu: "About",
+            desc1: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions). Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions).",
+            desc2: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions).",
+            desc3: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions)."
+          },
+
+          // {
+          //   id: 3,
+          //   menu: "Comments",
+          //   avatar: "https://picsum.photos/64",
+          //   username: "Nasibjon Ikromov",
+          //   userId: 123034,
+          //   userComment: `By mistake, some - intentionally (for example, humorous variants).`,
+          //   commentData: `${new Date().getDay()} August ${new Date().getFullYear()} ${new Date().getHours()}:${new Date().getMinutes()}`,
+          // },
+        ]
       },
 
       {
@@ -608,6 +2305,42 @@ const CardData = [
         displayType: "Retina",
         // diagonal: "6.7",
         camera: "24 Mpx",
+        data: [
+          {
+            id: 1,
+            menu: "Characteristics",
+            typeOfInstallation: "Wall",
+            weight1: 30,
+            workingEnvironment: "Water, Glycols",
+            numberOfSIMCard: 2,
+            power: 12,
+            heatedArea: 120,
+            boilerType: "Double circuit",
+            combustionChumberType: "Closed",
+            depth: 299,
+            width: 400,
+            height: 700,
+            weight2: 30,
+          },
+
+          {
+            id: 2,
+            menu: "About",
+            desc1: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions). Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions).",
+            desc2: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions).",
+            desc3: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions)."
+          },
+
+          // {
+          //   id: 3,
+          //   menu: "Comments",
+          //   avatar: "https://picsum.photos/64",
+          //   username: "Nasibjon Ikromov",
+          //   userId: 123034,
+          //   userComment: `By mistake, some - intentionally (for example, humorous variants).`,
+          //   commentData: `${new Date().getDay()} August ${new Date().getFullYear()} ${new Date().getHours()}:${new Date().getMinutes()}`,
+          // },
+        ]
       },
 
 
@@ -626,6 +2359,42 @@ const CardData = [
         displayType: "Retina",
         diagonal: "6.7",
         camera: "12 Mpx",
+        data: [
+          {
+            id: 1,
+            menu: "Characteristics",
+            typeOfInstallation: "Wall",
+            weight1: 30,
+            workingEnvironment: "Water, Glycols",
+            numberOfSIMCard: 2,
+            power: 12,
+            heatedArea: 120,
+            boilerType: "Double circuit",
+            combustionChumberType: "Closed",
+            depth: 299,
+            width: 400,
+            height: 700,
+            weight2: 30,
+          },
+
+          {
+            id: 2,
+            menu: "About",
+            desc1: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions). Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions).",
+            desc2: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions).",
+            desc3: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions)."
+          },
+
+          // {
+          //   id: 3,
+          //   menu: "Comments",
+          //   avatar: "https://picsum.photos/64",
+          //   username: "Nasibjon Ikromov",
+          //   userId: 123034,
+          //   userComment: `By mistake, some - intentionally (for example, humorous variants).`,
+          //   commentData: `${new Date().getDay()} August ${new Date().getFullYear()} ${new Date().getHours()}:${new Date().getMinutes()}`,
+          // },
+        ]
       },
 
       {
@@ -638,6 +2407,42 @@ const CardData = [
         displayType: "Retina",
         diagonal: "6.7",
         camera: "12 Mpx",
+        data: [
+          {
+            id: 1,
+            menu: "Characteristics",
+            typeOfInstallation: "Wall",
+            weight1: 30,
+            workingEnvironment: "Water, Glycols",
+            numberOfSIMCard: 2,
+            power: 12,
+            heatedArea: 120,
+            boilerType: "Double circuit",
+            combustionChumberType: "Closed",
+            depth: 299,
+            width: 400,
+            height: 700,
+            weight2: 30,
+          },
+
+          {
+            id: 2,
+            menu: "About",
+            desc1: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions). Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions).",
+            desc2: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions).",
+            desc3: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions)."
+          },
+
+          // {
+          //   id: 3,
+          //   menu: "Comments",
+          //   avatar: "https://picsum.photos/64",
+          //   username: "Nasibjon Ikromov",
+          //   userId: 123034,
+          //   userComment: `By mistake, some - intentionally (for example, humorous variants).`,
+          //   commentData: `${new Date().getDay()} August ${new Date().getFullYear()} ${new Date().getHours()}:${new Date().getMinutes()}`,
+          // },
+        ]
       },
 
       {
@@ -650,6 +2455,42 @@ const CardData = [
         displayType: "Retina",
         diagonal: "6.7",
         camera: "12 Mpx",
+        data: [
+          {
+            id: 1,
+            menu: "Characteristics",
+            typeOfInstallation: "Wall",
+            weight1: 30,
+            workingEnvironment: "Water, Glycols",
+            numberOfSIMCard: 2,
+            power: 12,
+            heatedArea: 120,
+            boilerType: "Double circuit",
+            combustionChumberType: "Closed",
+            depth: 299,
+            width: 400,
+            height: 700,
+            weight2: 30,
+          },
+
+          {
+            id: 2,
+            menu: "About",
+            desc1: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions). Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions).",
+            desc2: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions).",
+            desc3: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions)."
+          },
+
+          // {
+          //   id: 3,
+          //   menu: "Comments",
+          //   avatar: "https://picsum.photos/64",
+          //   username: "Nasibjon Ikromov",
+          //   userId: 123034,
+          //   userComment: `By mistake, some - intentionally (for example, humorous variants).`,
+          //   commentData: `${new Date().getDay()} August ${new Date().getFullYear()} ${new Date().getHours()}:${new Date().getMinutes()}`,
+          // },
+        ]
       },
 
       {
@@ -662,6 +2503,42 @@ const CardData = [
         displayType: "Retina",
         diagonal: "6.7",
         camera: "12 Mpx",
+        data: [
+          {
+            id: 1,
+            menu: "Characteristics",
+            typeOfInstallation: "Wall",
+            weight1: 30,
+            workingEnvironment: "Water, Glycols",
+            numberOfSIMCard: 2,
+            power: 12,
+            heatedArea: 120,
+            boilerType: "Double circuit",
+            combustionChumberType: "Closed",
+            depth: 299,
+            width: 400,
+            height: 700,
+            weight2: 30,
+          },
+
+          {
+            id: 2,
+            menu: "About",
+            desc1: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions). Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions).",
+            desc2: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions).",
+            desc3: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions)."
+          },
+
+          // {
+          //   id: 3,
+          //   menu: "Comments",
+          //   avatar: "https://picsum.photos/64",
+          //   username: "Nasibjon Ikromov",
+          //   userId: 123034,
+          //   userComment: `By mistake, some - intentionally (for example, humorous variants).`,
+          //   commentData: `${new Date().getDay()} August ${new Date().getFullYear()} ${new Date().getHours()}:${new Date().getMinutes()}`,
+          // },
+        ]
       },
 
       {
@@ -674,6 +2551,42 @@ const CardData = [
         displayType: "Retina",
         diagonal: "6.7",
         camera: "12 Mpx",
+        data: [
+          {
+            id: 1,
+            menu: "Characteristics",
+            typeOfInstallation: "Wall",
+            weight1: 30,
+            workingEnvironment: "Water, Glycols",
+            numberOfSIMCard: 2,
+            power: 12,
+            heatedArea: 120,
+            boilerType: "Double circuit",
+            combustionChumberType: "Closed",
+            depth: 299,
+            width: 400,
+            height: 700,
+            weight2: 30,
+          },
+
+          {
+            id: 2,
+            menu: "About",
+            desc1: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions). Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions).",
+            desc2: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions).",
+            desc3: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions)."
+          },
+
+          // {
+          //   id: 3,
+          //   menu: "Comments",
+          //   avatar: "https://picsum.photos/64",
+          //   username: "Nasibjon Ikromov",
+          //   userId: 123034,
+          //   userComment: `By mistake, some - intentionally (for example, humorous variants).`,
+          //   commentData: `${new Date().getDay()} August ${new Date().getFullYear()} ${new Date().getHours()}:${new Date().getMinutes()}`,
+          // },
+        ]
       },
 
       {
@@ -686,6 +2599,42 @@ const CardData = [
         displayType: "Retina",
         diagonal: "6.7",
         camera: "12 Mpx",
+        data: [
+          {
+            id: 1,
+            menu: "Characteristics",
+            typeOfInstallation: "Wall",
+            weight1: 30,
+            workingEnvironment: "Water, Glycols",
+            numberOfSIMCard: 2,
+            power: 12,
+            heatedArea: 120,
+            boilerType: "Double circuit",
+            combustionChumberType: "Closed",
+            depth: 299,
+            width: 400,
+            height: 700,
+            weight2: 30,
+          },
+
+          {
+            id: 2,
+            menu: "About",
+            desc1: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions). Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions).",
+            desc2: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions).",
+            desc3: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions)."
+          },
+
+          // {
+          //   id: 3,
+          //   menu: "Comments",
+          //   avatar: "https://picsum.photos/64",
+          //   username: "Nasibjon Ikromov",
+          //   userId: 123034,
+          //   userComment: `By mistake, some - intentionally (for example, humorous variants).`,
+          //   commentData: `${new Date().getDay()} August ${new Date().getFullYear()} ${new Date().getHours()}:${new Date().getMinutes()}`,
+          // },
+        ]
       },
 
       {
@@ -698,6 +2647,42 @@ const CardData = [
         displayType: "Retina",
         diagonal: "6.7",
         camera: "12 Mpx",
+        data: [
+          {
+            id: 1,
+            menu: "Characteristics",
+            typeOfInstallation: "Wall",
+            weight1: 30,
+            workingEnvironment: "Water, Glycols",
+            numberOfSIMCard: 2,
+            power: 12,
+            heatedArea: 120,
+            boilerType: "Double circuit",
+            combustionChumberType: "Closed",
+            depth: 299,
+            width: 400,
+            height: 700,
+            weight2: 30,
+          },
+
+          {
+            id: 2,
+            menu: "About",
+            desc1: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions). Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions).",
+            desc2: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions).",
+            desc3: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions)."
+          },
+
+          // {
+          //   id: 3,
+          //   menu: "Comments",
+          //   avatar: "https://picsum.photos/64",
+          //   username: "Nasibjon Ikromov",
+          //   userId: 123034,
+          //   userComment: `By mistake, some - intentionally (for example, humorous variants).`,
+          //   commentData: `${new Date().getDay()} August ${new Date().getFullYear()} ${new Date().getHours()}:${new Date().getMinutes()}`,
+          // },
+        ]
       },
 
       {
@@ -710,6 +2695,42 @@ const CardData = [
         displayType: "Retina",
         diagonal: "6.7",
         camera: "12 Mpx",
+        data: [
+          {
+            id: 1,
+            menu: "Characteristics",
+            typeOfInstallation: "Wall",
+            weight1: 30,
+            workingEnvironment: "Water, Glycols",
+            numberOfSIMCard: 2,
+            power: 12,
+            heatedArea: 120,
+            boilerType: "Double circuit",
+            combustionChumberType: "Closed",
+            depth: 299,
+            width: 400,
+            height: 700,
+            weight2: 30,
+          },
+
+          {
+            id: 2,
+            menu: "About",
+            desc1: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions). Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions).",
+            desc2: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions).",
+            desc3: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions)."
+          },
+
+          // {
+          //   id: 3,
+          //   menu: "Comments",
+          //   avatar: "https://picsum.photos/64",
+          //   username: "Nasibjon Ikromov",
+          //   userId: 123034,
+          //   userComment: `By mistake, some - intentionally (for example, humorous variants).`,
+          //   commentData: `${new Date().getDay()} August ${new Date().getFullYear()} ${new Date().getHours()}:${new Date().getMinutes()}`,
+          // },
+        ]
       },
 
       {
@@ -722,6 +2743,42 @@ const CardData = [
         displayType: "Retina",
         diagonal: "6.7",
         camera: "12 Mpx",
+        data: [
+          {
+            id: 1,
+            menu: "Characteristics",
+            typeOfInstallation: "Wall",
+            weight1: 30,
+            workingEnvironment: "Water, Glycols",
+            numberOfSIMCard: 2,
+            power: 12,
+            heatedArea: 120,
+            boilerType: "Double circuit",
+            combustionChumberType: "Closed",
+            depth: 299,
+            width: 400,
+            height: 700,
+            weight2: 30,
+          },
+
+          {
+            id: 2,
+            menu: "About",
+            desc1: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions). Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions).",
+            desc2: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions).",
+            desc3: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions)."
+          },
+
+          // {
+          //   id: 3,
+          //   menu: "Comments",
+          //   avatar: "https://picsum.photos/64",
+          //   username: "Nasibjon Ikromov",
+          //   userId: 123034,
+          //   userComment: `By mistake, some - intentionally (for example, humorous variants).`,
+          //   commentData: `${new Date().getDay()} August ${new Date().getFullYear()} ${new Date().getHours()}:${new Date().getMinutes()}`,
+          // },
+        ]
       },
 
       {
@@ -734,6 +2791,42 @@ const CardData = [
         displayType: "Retina",
         diagonal: "6.7",
         camera: "12 Mpx",
+        data: [
+          {
+            id: 1,
+            menu: "Characteristics",
+            typeOfInstallation: "Wall",
+            weight1: 30,
+            workingEnvironment: "Water, Glycols",
+            numberOfSIMCard: 2,
+            power: 12,
+            heatedArea: 120,
+            boilerType: "Double circuit",
+            combustionChumberType: "Closed",
+            depth: 299,
+            width: 400,
+            height: 700,
+            weight2: 30,
+          },
+
+          {
+            id: 2,
+            menu: "About",
+            desc1: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions). Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions).",
+            desc2: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions).",
+            desc3: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions)."
+          },
+
+          // {
+          //   id: 3,
+          //   menu: "Comments",
+          //   avatar: "https://picsum.photos/64",
+          //   username: "Nasibjon Ikromov",
+          //   userId: 123034,
+          //   userComment: `By mistake, some - intentionally (for example, humorous variants).`,
+          //   commentData: `${new Date().getDay()} August ${new Date().getFullYear()} ${new Date().getHours()}:${new Date().getMinutes()}`,
+          // },
+        ]
       },
 
 
@@ -752,6 +2845,42 @@ const CardData = [
         displayType: "Retina",
         diagonal: "6.7",
         camera: "12 Mpx",
+        data: [
+          {
+            id: 1,
+            menu: "Characteristics",
+            typeOfInstallation: "Wall",
+            weight1: 30,
+            workingEnvironment: "Water, Glycols",
+            numberOfSIMCard: 2,
+            power: 12,
+            heatedArea: 120,
+            boilerType: "Double circuit",
+            combustionChumberType: "Closed",
+            depth: 299,
+            width: 400,
+            height: 700,
+            weight2: 30,
+          },
+
+          {
+            id: 2,
+            menu: "About",
+            desc1: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions). Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions).",
+            desc2: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions).",
+            desc3: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions)."
+          },
+
+          // {
+          //   id: 3,
+          //   menu: "Comments",
+          //   avatar: "https://picsum.photos/64",
+          //   username: "Nasibjon Ikromov",
+          //   userId: 123034,
+          //   userComment: `By mistake, some - intentionally (for example, humorous variants).`,
+          //   commentData: `${new Date().getDay()} August ${new Date().getFullYear()} ${new Date().getHours()}:${new Date().getMinutes()}`,
+          // },
+        ]
       },
 
       {
@@ -764,6 +2893,42 @@ const CardData = [
         displayType: "Retina",
         diagonal: "6.7",
         camera: "12 Mpx",
+        data: [
+          {
+            id: 1,
+            menu: "Characteristics",
+            typeOfInstallation: "Wall",
+            weight1: 30,
+            workingEnvironment: "Water, Glycols",
+            numberOfSIMCard: 2,
+            power: 12,
+            heatedArea: 120,
+            boilerType: "Double circuit",
+            combustionChumberType: "Closed",
+            depth: 299,
+            width: 400,
+            height: 700,
+            weight2: 30,
+          },
+
+          {
+            id: 2,
+            menu: "About",
+            desc1: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions). Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions).",
+            desc2: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions).",
+            desc3: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions)."
+          },
+
+          // {
+          //   id: 3,
+          //   menu: "Comments",
+          //   avatar: "https://picsum.photos/64",
+          //   username: "Nasibjon Ikromov",
+          //   userId: 123034,
+          //   userComment: `By mistake, some - intentionally (for example, humorous variants).`,
+          //   commentData: `${new Date().getDay()} August ${new Date().getFullYear()} ${new Date().getHours()}:${new Date().getMinutes()}`,
+          // },
+        ]
       },
 
       {
@@ -776,6 +2941,42 @@ const CardData = [
         displayType: "Retina",
         diagonal: "6.7",
         camera: "12 Mpx",
+        data: [
+          {
+            id: 1,
+            menu: "Characteristics",
+            typeOfInstallation: "Wall",
+            weight1: 30,
+            workingEnvironment: "Water, Glycols",
+            numberOfSIMCard: 2,
+            power: 12,
+            heatedArea: 120,
+            boilerType: "Double circuit",
+            combustionChumberType: "Closed",
+            depth: 299,
+            width: 400,
+            height: 700,
+            weight2: 30,
+          },
+
+          {
+            id: 2,
+            menu: "About",
+            desc1: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions). Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions).",
+            desc2: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions).",
+            desc3: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions)."
+          },
+
+          // {
+          //   id: 3,
+          //   menu: "Comments",
+          //   avatar: "https://picsum.photos/64",
+          //   username: "Nasibjon Ikromov",
+          //   userId: 123034,
+          //   userComment: `By mistake, some - intentionally (for example, humorous variants).`,
+          //   commentData: `${new Date().getDay()} August ${new Date().getFullYear()} ${new Date().getHours()}:${new Date().getMinutes()}`,
+          // },
+        ]
       },
 
       {
@@ -788,6 +2989,42 @@ const CardData = [
         displayType: "Retina",
         diagonal: "6.7",
         camera: "12 Mpx",
+        data: [
+          {
+            id: 1,
+            menu: "Characteristics",
+            typeOfInstallation: "Wall",
+            weight1: 30,
+            workingEnvironment: "Water, Glycols",
+            numberOfSIMCard: 2,
+            power: 12,
+            heatedArea: 120,
+            boilerType: "Double circuit",
+            combustionChumberType: "Closed",
+            depth: 299,
+            width: 400,
+            height: 700,
+            weight2: 30,
+          },
+
+          {
+            id: 2,
+            menu: "About",
+            desc1: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions). Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions).",
+            desc2: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions).",
+            desc3: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions)."
+          },
+
+          // {
+          //   id: 3,
+          //   menu: "Comments",
+          //   avatar: "https://picsum.photos/64",
+          //   username: "Nasibjon Ikromov",
+          //   userId: 123034,
+          //   userComment: `By mistake, some - intentionally (for example, humorous variants).`,
+          //   commentData: `${new Date().getDay()} August ${new Date().getFullYear()} ${new Date().getHours()}:${new Date().getMinutes()}`,
+          // },
+        ]
       },
 
       {
@@ -800,6 +3037,42 @@ const CardData = [
         displayType: "Retina",
         diagonal: "6.7",
         camera: "12 Mpx",
+        data: [
+          {
+            id: 1,
+            menu: "Characteristics",
+            typeOfInstallation: "Wall",
+            weight1: 30,
+            workingEnvironment: "Water, Glycols",
+            numberOfSIMCard: 2,
+            power: 12,
+            heatedArea: 120,
+            boilerType: "Double circuit",
+            combustionChumberType: "Closed",
+            depth: 299,
+            width: 400,
+            height: 700,
+            weight2: 30,
+          },
+
+          {
+            id: 2,
+            menu: "About",
+            desc1: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions). Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions).",
+            desc2: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions).",
+            desc3: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions)."
+          },
+
+          // {
+          //   id: 3,
+          //   menu: "Comments",
+          //   avatar: "https://picsum.photos/64",
+          //   username: "Nasibjon Ikromov",
+          //   userId: 123034,
+          //   userComment: `By mistake, some - intentionally (for example, humorous variants).`,
+          //   commentData: `${new Date().getDay()} August ${new Date().getFullYear()} ${new Date().getHours()}:${new Date().getMinutes()}`,
+          // },
+        ]
       },
 
       {
@@ -812,6 +3085,42 @@ const CardData = [
         displayType: "Retina",
         diagonal: "6.7",
         camera: "12 Mpx",
+        data: [
+          {
+            id: 1,
+            menu: "Characteristics",
+            typeOfInstallation: "Wall",
+            weight1: 30,
+            workingEnvironment: "Water, Glycols",
+            numberOfSIMCard: 2,
+            power: 12,
+            heatedArea: 120,
+            boilerType: "Double circuit",
+            combustionChumberType: "Closed",
+            depth: 299,
+            width: 400,
+            height: 700,
+            weight2: 30,
+          },
+
+          {
+            id: 2,
+            menu: "About",
+            desc1: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions). Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions).",
+            desc2: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions).",
+            desc3: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions)."
+          },
+
+          // {
+          //   id: 3,
+          //   menu: "Comments",
+          //   avatar: "https://picsum.photos/64",
+          //   username: "Nasibjon Ikromov",
+          //   userId: 123034,
+          //   userComment: `By mistake, some - intentionally (for example, humorous variants).`,
+          //   commentData: `${new Date().getDay()} August ${new Date().getFullYear()} ${new Date().getHours()}:${new Date().getMinutes()}`,
+          // },
+        ]
       },
 
       {
@@ -824,6 +3133,42 @@ const CardData = [
         displayType: "Retina",
         diagonal: "6.7",
         camera: "12 Mpx",
+        data: [
+          {
+            id: 1,
+            menu: "Characteristics",
+            typeOfInstallation: "Wall",
+            weight1: 30,
+            workingEnvironment: "Water, Glycols",
+            numberOfSIMCard: 2,
+            power: 12,
+            heatedArea: 120,
+            boilerType: "Double circuit",
+            combustionChumberType: "Closed",
+            depth: 299,
+            width: 400,
+            height: 700,
+            weight2: 30,
+          },
+
+          {
+            id: 2,
+            menu: "About",
+            desc1: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions). Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions).",
+            desc2: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions).",
+            desc3: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions)."
+          },
+
+          // {
+          //   id: 3,
+          //   menu: "Comments",
+          //   avatar: "https://picsum.photos/64",
+          //   username: "Nasibjon Ikromov",
+          //   userId: 123034,
+          //   userComment: `By mistake, some - intentionally (for example, humorous variants).`,
+          //   commentData: `${new Date().getDay()} August ${new Date().getFullYear()} ${new Date().getHours()}:${new Date().getMinutes()}`,
+          // },
+        ]
       },
 
       {
@@ -836,6 +3181,42 @@ const CardData = [
         displayType: "Retina",
         diagonal: "6.7",
         camera: "12 Mpx",
+        data: [
+          {
+            id: 1,
+            menu: "Characteristics",
+            typeOfInstallation: "Wall",
+            weight1: 30,
+            workingEnvironment: "Water, Glycols",
+            numberOfSIMCard: 2,
+            power: 12,
+            heatedArea: 120,
+            boilerType: "Double circuit",
+            combustionChumberType: "Closed",
+            depth: 299,
+            width: 400,
+            height: 700,
+            weight2: 30,
+          },
+
+          {
+            id: 2,
+            menu: "About",
+            desc1: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions). Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions).",
+            desc2: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions).",
+            desc3: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions)."
+          },
+
+          // {
+          //   id: 3,
+          //   menu: "Comments",
+          //   avatar: "https://picsum.photos/64",
+          //   username: "Nasibjon Ikromov",
+          //   userId: 123034,
+          //   userComment: `By mistake, some - intentionally (for example, humorous variants).`,
+          //   commentData: `${new Date().getDay()} August ${new Date().getFullYear()} ${new Date().getHours()}:${new Date().getMinutes()}`,
+          // },
+        ]
       },
 
       {
@@ -848,6 +3229,42 @@ const CardData = [
         displayType: "Retina",
         diagonal: "6.7",
         camera: "12 Mpx",
+        data: [
+          {
+            id: 1,
+            menu: "Characteristics",
+            typeOfInstallation: "Wall",
+            weight1: 30,
+            workingEnvironment: "Water, Glycols",
+            numberOfSIMCard: 2,
+            power: 12,
+            heatedArea: 120,
+            boilerType: "Double circuit",
+            combustionChumberType: "Closed",
+            depth: 299,
+            width: 400,
+            height: 700,
+            weight2: 30,
+          },
+
+          {
+            id: 2,
+            menu: "About",
+            desc1: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions). Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions).",
+            desc2: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions).",
+            desc3: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions)."
+          },
+
+          // {
+          //   id: 3,
+          //   menu: "Comments",
+          //   avatar: "https://picsum.photos/64",
+          //   username: "Nasibjon Ikromov",
+          //   userId: 123034,
+          //   userComment: `By mistake, some - intentionally (for example, humorous variants).`,
+          //   commentData: `${new Date().getDay()} August ${new Date().getFullYear()} ${new Date().getHours()}:${new Date().getMinutes()}`,
+          // },
+        ]
       },
 
       {
@@ -860,6 +3277,42 @@ const CardData = [
         displayType: "Retina",
         diagonal: "6.7",
         camera: "12 Mpx",
+        data: [
+          {
+            id: 1,
+            menu: "Characteristics",
+            typeOfInstallation: "Wall",
+            weight1: 30,
+            workingEnvironment: "Water, Glycols",
+            numberOfSIMCard: 2,
+            power: 12,
+            heatedArea: 120,
+            boilerType: "Double circuit",
+            combustionChumberType: "Closed",
+            depth: 299,
+            width: 400,
+            height: 700,
+            weight2: 30,
+          },
+
+          {
+            id: 2,
+            menu: "About",
+            desc1: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions). Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions).",
+            desc2: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions).",
+            desc3: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions)."
+          },
+
+          // {
+          //   id: 3,
+          //   menu: "Comments",
+          //   avatar: "https://picsum.photos/64",
+          //   username: "Nasibjon Ikromov",
+          //   userId: 123034,
+          //   userComment: `By mistake, some - intentionally (for example, humorous variants).`,
+          //   commentData: `${new Date().getDay()} August ${new Date().getFullYear()} ${new Date().getHours()}:${new Date().getMinutes()}`,
+          // },
+        ]
       },
 
 
@@ -878,6 +3331,42 @@ const CardData = [
         displayType: "Retina",
         diagonal: "6.7",
         camera: "12 Mpx",
+        data: [
+          {
+            id: 1,
+            menu: "Characteristics",
+            typeOfInstallation: "Wall",
+            weight1: 30,
+            workingEnvironment: "Water, Glycols",
+            numberOfSIMCard: 2,
+            power: 12,
+            heatedArea: 120,
+            boilerType: "Double circuit",
+            combustionChumberType: "Closed",
+            depth: 299,
+            width: 400,
+            height: 700,
+            weight2: 30,
+          },
+
+          {
+            id: 2,
+            menu: "About",
+            desc1: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions). Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions).",
+            desc2: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions).",
+            desc3: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions)."
+          },
+
+          // {
+          //   id: 3,
+          //   menu: "Comments",
+          //   avatar: "https://picsum.photos/64",
+          //   username: "Nasibjon Ikromov",
+          //   userId: 123034,
+          //   userComment: `By mistake, some - intentionally (for example, humorous variants).`,
+          //   commentData: `${new Date().getDay()} August ${new Date().getFullYear()} ${new Date().getHours()}:${new Date().getMinutes()}`,
+          // },
+        ]
       },
 
       {
@@ -890,6 +3379,42 @@ const CardData = [
         displayType: "Retina",
         diagonal: "6.7",
         camera: "12 Mpx",
+        data: [
+          {
+            id: 1,
+            menu: "Characteristics",
+            typeOfInstallation: "Wall",
+            weight1: 30,
+            workingEnvironment: "Water, Glycols",
+            numberOfSIMCard: 2,
+            power: 12,
+            heatedArea: 120,
+            boilerType: "Double circuit",
+            combustionChumberType: "Closed",
+            depth: 299,
+            width: 400,
+            height: 700,
+            weight2: 30,
+          },
+
+          {
+            id: 2,
+            menu: "About",
+            desc1: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions). Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions).",
+            desc2: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions).",
+            desc3: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions)."
+          },
+
+          // {
+          //   id: 3,
+          //   menu: "Comments",
+          //   avatar: "https://picsum.photos/64",
+          //   username: "Nasibjon Ikromov",
+          //   userId: 123034,
+          //   userComment: `By mistake, some - intentionally (for example, humorous variants).`,
+          //   commentData: `${new Date().getDay()} August ${new Date().getFullYear()} ${new Date().getHours()}:${new Date().getMinutes()}`,
+          // },
+        ]
       },
 
       {
@@ -902,6 +3427,42 @@ const CardData = [
         displayType: "Retina",
         diagonal: "6.7",
         camera: "12 Mpx",
+        data: [
+          {
+            id: 1,
+            menu: "Characteristics",
+            typeOfInstallation: "Wall",
+            weight1: 30,
+            workingEnvironment: "Water, Glycols",
+            numberOfSIMCard: 2,
+            power: 12,
+            heatedArea: 120,
+            boilerType: "Double circuit",
+            combustionChumberType: "Closed",
+            depth: 299,
+            width: 400,
+            height: 700,
+            weight2: 30,
+          },
+
+          {
+            id: 2,
+            menu: "About",
+            desc1: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions). Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions).",
+            desc2: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions).",
+            desc3: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions)."
+          },
+
+          // {
+          //   id: 3,
+          //   menu: "Comments",
+          //   avatar: "https://picsum.photos/64",
+          //   username: "Nasibjon Ikromov",
+          //   userId: 123034,
+          //   userComment: `By mistake, some - intentionally (for example, humorous variants).`,
+          //   commentData: `${new Date().getDay()} August ${new Date().getFullYear()} ${new Date().getHours()}:${new Date().getMinutes()}`,
+          // },
+        ]
       },
 
       {
@@ -914,6 +3475,42 @@ const CardData = [
         displayType: "Retina",
         diagonal: "6.7",
         camera: "12 Mpx",
+        data: [
+          {
+            id: 1,
+            menu: "Characteristics",
+            typeOfInstallation: "Wall",
+            weight1: 30,
+            workingEnvironment: "Water, Glycols",
+            numberOfSIMCard: 2,
+            power: 12,
+            heatedArea: 120,
+            boilerType: "Double circuit",
+            combustionChumberType: "Closed",
+            depth: 299,
+            width: 400,
+            height: 700,
+            weight2: 30,
+          },
+
+          {
+            id: 2,
+            menu: "About",
+            desc1: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions). Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions).",
+            desc2: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions).",
+            desc3: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions)."
+          },
+
+          // {
+          //   id: 3,
+          //   menu: "Comments",
+          //   avatar: "https://picsum.photos/64",
+          //   username: "Nasibjon Ikromov",
+          //   userId: 123034,
+          //   userComment: `By mistake, some - intentionally (for example, humorous variants).`,
+          //   commentData: `${new Date().getDay()} August ${new Date().getFullYear()} ${new Date().getHours()}:${new Date().getMinutes()}`,
+          // },
+        ]
       },
 
       {
@@ -926,6 +3523,42 @@ const CardData = [
         displayType: "Retina",
         diagonal: "6.7",
         camera: "12 Mpx",
+        data: [
+          {
+            id: 1,
+            menu: "Characteristics",
+            typeOfInstallation: "Wall",
+            weight1: 30,
+            workingEnvironment: "Water, Glycols",
+            numberOfSIMCard: 2,
+            power: 12,
+            heatedArea: 120,
+            boilerType: "Double circuit",
+            combustionChumberType: "Closed",
+            depth: 299,
+            width: 400,
+            height: 700,
+            weight2: 30,
+          },
+
+          {
+            id: 2,
+            menu: "About",
+            desc1: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions). Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions).",
+            desc2: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions).",
+            desc3: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions)."
+          },
+
+          // {
+          //   id: 3,
+          //   menu: "Comments",
+          //   avatar: "https://picsum.photos/64",
+          //   username: "Nasibjon Ikromov",
+          //   userId: 123034,
+          //   userComment: `By mistake, some - intentionally (for example, humorous variants).`,
+          //   commentData: `${new Date().getDay()} August ${new Date().getFullYear()} ${new Date().getHours()}:${new Date().getMinutes()}`,
+          // },
+        ]
       },
 
       {
@@ -938,6 +3571,42 @@ const CardData = [
         displayType: "Retina",
         diagonal: "6.7",
         camera: "12 Mpx",
+        data: [
+          {
+            id: 1,
+            menu: "Characteristics",
+            typeOfInstallation: "Wall",
+            weight1: 30,
+            workingEnvironment: "Water, Glycols",
+            numberOfSIMCard: 2,
+            power: 12,
+            heatedArea: 120,
+            boilerType: "Double circuit",
+            combustionChumberType: "Closed",
+            depth: 299,
+            width: 400,
+            height: 700,
+            weight2: 30,
+          },
+
+          {
+            id: 2,
+            menu: "About",
+            desc1: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions). Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions).",
+            desc2: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions).",
+            desc3: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions)."
+          },
+
+          // {
+          //   id: 3,
+          //   menu: "Comments",
+          //   avatar: "https://picsum.photos/64",
+          //   username: "Nasibjon Ikromov",
+          //   userId: 123034,
+          //   userComment: `By mistake, some - intentionally (for example, humorous variants).`,
+          //   commentData: `${new Date().getDay()} August ${new Date().getFullYear()} ${new Date().getHours()}:${new Date().getMinutes()}`,
+          // },
+        ]
       },
 
       {
@@ -950,6 +3619,42 @@ const CardData = [
         displayType: "Retina",
         diagonal: "6.7",
         camera: "12 Mpx",
+        data: [
+          {
+            id: 1,
+            menu: "Characteristics",
+            typeOfInstallation: "Wall",
+            weight1: 30,
+            workingEnvironment: "Water, Glycols",
+            numberOfSIMCard: 2,
+            power: 12,
+            heatedArea: 120,
+            boilerType: "Double circuit",
+            combustionChumberType: "Closed",
+            depth: 299,
+            width: 400,
+            height: 700,
+            weight2: 30,
+          },
+
+          {
+            id: 2,
+            menu: "About",
+            desc1: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions). Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions).",
+            desc2: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions).",
+            desc3: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions)."
+          },
+
+          // {
+          //   id: 3,
+          //   menu: "Comments",
+          //   avatar: "https://picsum.photos/64",
+          //   username: "Nasibjon Ikromov",
+          //   userId: 123034,
+          //   userComment: `By mistake, some - intentionally (for example, humorous variants).`,
+          //   commentData: `${new Date().getDay()} August ${new Date().getFullYear()} ${new Date().getHours()}:${new Date().getMinutes()}`,
+          // },
+        ]
       },
 
       {
@@ -962,6 +3667,42 @@ const CardData = [
         displayType: "Retina",
         diagonal: "6.7",
         camera: "12 Mpx",
+        data: [
+          {
+            id: 1,
+            menu: "Characteristics",
+            typeOfInstallation: "Wall",
+            weight1: 30,
+            workingEnvironment: "Water, Glycols",
+            numberOfSIMCard: 2,
+            power: 12,
+            heatedArea: 120,
+            boilerType: "Double circuit",
+            combustionChumberType: "Closed",
+            depth: 299,
+            width: 400,
+            height: 700,
+            weight2: 30,
+          },
+
+          {
+            id: 2,
+            menu: "About",
+            desc1: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions). Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions).",
+            desc2: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions).",
+            desc3: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions)."
+          },
+
+          // {
+          //   id: 3,
+          //   menu: "Comments",
+          //   avatar: "https://picsum.photos/64",
+          //   username: "Nasibjon Ikromov",
+          //   userId: 123034,
+          //   userComment: `By mistake, some - intentionally (for example, humorous variants).`,
+          //   commentData: `${new Date().getDay()} August ${new Date().getFullYear()} ${new Date().getHours()}:${new Date().getMinutes()}`,
+          // },
+        ]
       },
 
       {
@@ -974,6 +3715,42 @@ const CardData = [
         displayType: "Retina",
         diagonal: "6.7",
         camera: "12 Mpx",
+        data: [
+          {
+            id: 1,
+            menu: "Characteristics",
+            typeOfInstallation: "Wall",
+            weight1: 30,
+            workingEnvironment: "Water, Glycols",
+            numberOfSIMCard: 2,
+            power: 12,
+            heatedArea: 120,
+            boilerType: "Double circuit",
+            combustionChumberType: "Closed",
+            depth: 299,
+            width: 400,
+            height: 700,
+            weight2: 30,
+          },
+
+          {
+            id: 2,
+            menu: "About",
+            desc1: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions). Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions).",
+            desc2: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions).",
+            desc3: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions)."
+          },
+
+          // {
+          //   id: 3,
+          //   menu: "Comments",
+          //   avatar: "https://picsum.photos/64",
+          //   username: "Nasibjon Ikromov",
+          //   userId: 123034,
+          //   userComment: `By mistake, some - intentionally (for example, humorous variants).`,
+          //   commentData: `${new Date().getDay()} August ${new Date().getFullYear()} ${new Date().getHours()}:${new Date().getMinutes()}`,
+          // },
+        ]
       },
 
       {
@@ -986,6 +3763,42 @@ const CardData = [
         displayType: "Retina",
         diagonal: "6.7",
         camera: "12 Mpx",
+        data: [
+          {
+            id: 1,
+            menu: "Characteristics",
+            typeOfInstallation: "Wall",
+            weight1: 30,
+            workingEnvironment: "Water, Glycols",
+            numberOfSIMCard: 2,
+            power: 12,
+            heatedArea: 120,
+            boilerType: "Double circuit",
+            combustionChumberType: "Closed",
+            depth: 299,
+            width: 400,
+            height: 700,
+            weight2: 30,
+          },
+
+          {
+            id: 2,
+            menu: "About",
+            desc1: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions). Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions).",
+            desc2: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions).",
+            desc3: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions)."
+          },
+
+          // {
+          //   id: 3,
+          //   menu: "Comments",
+          //   avatar: "https://picsum.photos/64",
+          //   username: "Nasibjon Ikromov",
+          //   userId: 123034,
+          //   userComment: `By mistake, some - intentionally (for example, humorous variants).`,
+          //   commentData: `${new Date().getDay()} August ${new Date().getFullYear()} ${new Date().getHours()}:${new Date().getMinutes()}`,
+          // },
+        ]
       },
 
 
@@ -1004,6 +3817,42 @@ const CardData = [
         displayType: "Retina",
         diagonal: "6.7",
         camera: "12 Mpx",
+        data: [
+          {
+            id: 1,
+            menu: "Characteristics",
+            typeOfInstallation: "Wall",
+            weight1: 30,
+            workingEnvironment: "Water, Glycols",
+            numberOfSIMCard: 2,
+            power: 12,
+            heatedArea: 120,
+            boilerType: "Double circuit",
+            combustionChumberType: "Closed",
+            depth: 299,
+            width: 400,
+            height: 700,
+            weight2: 30,
+          },
+
+          {
+            id: 2,
+            menu: "About",
+            desc1: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions). Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions).",
+            desc2: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions).",
+            desc3: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions)."
+          },
+
+          // {
+          //   id: 3,
+          //   menu: "Comments",
+          //   avatar: "https://picsum.photos/64",
+          //   username: "Nasibjon Ikromov",
+          //   userId: 123034,
+          //   userComment: `By mistake, some - intentionally (for example, humorous variants).`,
+          //   commentData: `${new Date().getDay()} August ${new Date().getFullYear()} ${new Date().getHours()}:${new Date().getMinutes()}`,
+          // },
+        ]
       },
 
       {
@@ -1016,6 +3865,42 @@ const CardData = [
         displayType: "Retina",
         diagonal: "6.7",
         camera: "12 Mpx",
+        data: [
+          {
+            id: 1,
+            menu: "Characteristics",
+            typeOfInstallation: "Wall",
+            weight1: 30,
+            workingEnvironment: "Water, Glycols",
+            numberOfSIMCard: 2,
+            power: 12,
+            heatedArea: 120,
+            boilerType: "Double circuit",
+            combustionChumberType: "Closed",
+            depth: 299,
+            width: 400,
+            height: 700,
+            weight2: 30,
+          },
+
+          {
+            id: 2,
+            menu: "About",
+            desc1: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions). Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions).",
+            desc2: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions).",
+            desc3: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions)."
+          },
+
+          // {
+          //   id: 3,
+          //   menu: "Comments",
+          //   avatar: "https://picsum.photos/64",
+          //   username: "Nasibjon Ikromov",
+          //   userId: 123034,
+          //   userComment: `By mistake, some - intentionally (for example, humorous variants).`,
+          //   commentData: `${new Date().getDay()} August ${new Date().getFullYear()} ${new Date().getHours()}:${new Date().getMinutes()}`,
+          // },
+        ]
       },
 
       {
@@ -1028,6 +3913,42 @@ const CardData = [
         displayType: "Retina",
         diagonal: "6.7",
         camera: "12 Mpx",
+        data: [
+          {
+            id: 1,
+            menu: "Characteristics",
+            typeOfInstallation: "Wall",
+            weight1: 30,
+            workingEnvironment: "Water, Glycols",
+            numberOfSIMCard: 2,
+            power: 12,
+            heatedArea: 120,
+            boilerType: "Double circuit",
+            combustionChumberType: "Closed",
+            depth: 299,
+            width: 400,
+            height: 700,
+            weight2: 30,
+          },
+
+          {
+            id: 2,
+            menu: "About",
+            desc1: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions). Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions).",
+            desc2: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions).",
+            desc3: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions)."
+          },
+
+          // {
+          //   id: 3,
+          //   menu: "Comments",
+          //   avatar: "https://picsum.photos/64",
+          //   username: "Nasibjon Ikromov",
+          //   userId: 123034,
+          //   userComment: `By mistake, some - intentionally (for example, humorous variants).`,
+          //   commentData: `${new Date().getDay()} August ${new Date().getFullYear()} ${new Date().getHours()}:${new Date().getMinutes()}`,
+          // },
+        ]
       },
 
       {
@@ -1040,6 +3961,42 @@ const CardData = [
         displayType: "Retina",
         diagonal: "6.7",
         camera: "12 Mpx",
+        data: [
+          {
+            id: 1,
+            menu: "Characteristics",
+            typeOfInstallation: "Wall",
+            weight1: 30,
+            workingEnvironment: "Water, Glycols",
+            numberOfSIMCard: 2,
+            power: 12,
+            heatedArea: 120,
+            boilerType: "Double circuit",
+            combustionChumberType: "Closed",
+            depth: 299,
+            width: 400,
+            height: 700,
+            weight2: 30,
+          },
+
+          {
+            id: 2,
+            menu: "About",
+            desc1: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions). Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions).",
+            desc2: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions).",
+            desc3: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions)."
+          },
+
+          // {
+          //   id: 3,
+          //   menu: "Comments",
+          //   avatar: "https://picsum.photos/64",
+          //   username: "Nasibjon Ikromov",
+          //   userId: 123034,
+          //   userComment: `By mistake, some - intentionally (for example, humorous variants).`,
+          //   commentData: `${new Date().getDay()} August ${new Date().getFullYear()} ${new Date().getHours()}:${new Date().getMinutes()}`,
+          // },
+        ]
       },
 
       {
@@ -1052,6 +4009,42 @@ const CardData = [
         displayType: "Retina",
         diagonal: "6.7",
         camera: "12 Mpx",
+        data: [
+          {
+            id: 1,
+            menu: "Characteristics",
+            typeOfInstallation: "Wall",
+            weight1: 30,
+            workingEnvironment: "Water, Glycols",
+            numberOfSIMCard: 2,
+            power: 12,
+            heatedArea: 120,
+            boilerType: "Double circuit",
+            combustionChumberType: "Closed",
+            depth: 299,
+            width: 400,
+            height: 700,
+            weight2: 30,
+          },
+
+          {
+            id: 2,
+            menu: "About",
+            desc1: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions). Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions).",
+            desc2: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions).",
+            desc3: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions)."
+          },
+
+          // {
+          //   id: 3,
+          //   menu: "Comments",
+          //   avatar: "https://picsum.photos/64",
+          //   username: "Nasibjon Ikromov",
+          //   userId: 123034,
+          //   userComment: `By mistake, some - intentionally (for example, humorous variants).`,
+          //   commentData: `${new Date().getDay()} August ${new Date().getFullYear()} ${new Date().getHours()}:${new Date().getMinutes()}`,
+          // },
+        ]
       },
 
       {
@@ -1064,6 +4057,42 @@ const CardData = [
         displayType: "Retina",
         diagonal: "6.7",
         camera: "12 Mpx",
+        data: [
+          {
+            id: 1,
+            menu: "Characteristics",
+            typeOfInstallation: "Wall",
+            weight1: 30,
+            workingEnvironment: "Water, Glycols",
+            numberOfSIMCard: 2,
+            power: 12,
+            heatedArea: 120,
+            boilerType: "Double circuit",
+            combustionChumberType: "Closed",
+            depth: 299,
+            width: 400,
+            height: 700,
+            weight2: 30,
+          },
+
+          {
+            id: 2,
+            menu: "About",
+            desc1: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions). Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions).",
+            desc2: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions).",
+            desc3: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions)."
+          },
+
+          // {
+          //   id: 3,
+          //   menu: "Comments",
+          //   avatar: "https://picsum.photos/64",
+          //   username: "Nasibjon Ikromov",
+          //   userId: 123034,
+          //   userComment: `By mistake, some - intentionally (for example, humorous variants).`,
+          //   commentData: `${new Date().getDay()} August ${new Date().getFullYear()} ${new Date().getHours()}:${new Date().getMinutes()}`,
+          // },
+        ]
       },
 
       {
@@ -1076,6 +4105,42 @@ const CardData = [
         displayType: "Retina",
         diagonal: "6.7",
         camera: "12 Mpx",
+        data: [
+          {
+            id: 1,
+            menu: "Characteristics",
+            typeOfInstallation: "Wall",
+            weight1: 30,
+            workingEnvironment: "Water, Glycols",
+            numberOfSIMCard: 2,
+            power: 12,
+            heatedArea: 120,
+            boilerType: "Double circuit",
+            combustionChumberType: "Closed",
+            depth: 299,
+            width: 400,
+            height: 700,
+            weight2: 30,
+          },
+
+          {
+            id: 2,
+            menu: "About",
+            desc1: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions). Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions).",
+            desc2: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions).",
+            desc3: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions)."
+          },
+
+          // {
+          //   id: 3,
+          //   menu: "Comments",
+          //   avatar: "https://picsum.photos/64",
+          //   username: "Nasibjon Ikromov",
+          //   userId: 123034,
+          //   userComment: `By mistake, some - intentionally (for example, humorous variants).`,
+          //   commentData: `${new Date().getDay()} August ${new Date().getFullYear()} ${new Date().getHours()}:${new Date().getMinutes()}`,
+          // },
+        ]
       },
 
       {
@@ -1088,6 +4153,42 @@ const CardData = [
         displayType: "Retina",
         diagonal: "6.7",
         camera: "12 Mpx",
+        data: [
+          {
+            id: 1,
+            menu: "Characteristics",
+            typeOfInstallation: "Wall",
+            weight1: 30,
+            workingEnvironment: "Water, Glycols",
+            numberOfSIMCard: 2,
+            power: 12,
+            heatedArea: 120,
+            boilerType: "Double circuit",
+            combustionChumberType: "Closed",
+            depth: 299,
+            width: 400,
+            height: 700,
+            weight2: 30,
+          },
+
+          {
+            id: 2,
+            menu: "About",
+            desc1: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions). Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions).",
+            desc2: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions).",
+            desc3: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions)."
+          },
+
+          // {
+          //   id: 3,
+          //   menu: "Comments",
+          //   avatar: "https://picsum.photos/64",
+          //   username: "Nasibjon Ikromov",
+          //   userId: 123034,
+          //   userComment: `By mistake, some - intentionally (for example, humorous variants).`,
+          //   commentData: `${new Date().getDay()} August ${new Date().getFullYear()} ${new Date().getHours()}:${new Date().getMinutes()}`,
+          // },
+        ]
       },
 
       {
@@ -1100,6 +4201,42 @@ const CardData = [
         displayType: "Retina",
         diagonal: "6.7",
         camera: "12 Mpx",
+        data: [
+          {
+            id: 1,
+            menu: "Characteristics",
+            typeOfInstallation: "Wall",
+            weight1: 30,
+            workingEnvironment: "Water, Glycols",
+            numberOfSIMCard: 2,
+            power: 12,
+            heatedArea: 120,
+            boilerType: "Double circuit",
+            combustionChumberType: "Closed",
+            depth: 299,
+            width: 400,
+            height: 700,
+            weight2: 30,
+          },
+
+          {
+            id: 2,
+            menu: "About",
+            desc1: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions). Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions).",
+            desc2: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions).",
+            desc3: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions)."
+          },
+
+          // {
+          //   id: 3,
+          //   menu: "Comments",
+          //   avatar: "https://picsum.photos/64",
+          //   username: "Nasibjon Ikromov",
+          //   userId: 123034,
+          //   userComment: `By mistake, some - intentionally (for example, humorous variants).`,
+          //   commentData: `${new Date().getDay()} August ${new Date().getFullYear()} ${new Date().getHours()}:${new Date().getMinutes()}`,
+          // },
+        ]
       },
 
       {
@@ -1112,6 +4249,42 @@ const CardData = [
         displayType: "Retina",
         diagonal: "6.7",
         camera: "12 Mpx",
+        data: [
+          {
+            id: 1,
+            menu: "Characteristics",
+            typeOfInstallation: "Wall",
+            weight1: 30,
+            workingEnvironment: "Water, Glycols",
+            numberOfSIMCard: 2,
+            power: 12,
+            heatedArea: 120,
+            boilerType: "Double circuit",
+            combustionChumberType: "Closed",
+            depth: 299,
+            width: 400,
+            height: 700,
+            weight2: 30,
+          },
+
+          {
+            id: 2,
+            menu: "About",
+            desc1: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions). Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions).",
+            desc2: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions).",
+            desc3: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions)."
+          },
+
+          // {
+          //   id: 3,
+          //   menu: "Comments",
+          //   avatar: "https://picsum.photos/64",
+          //   username: "Nasibjon Ikromov",
+          //   userId: 123034,
+          //   userComment: `By mistake, some - intentionally (for example, humorous variants).`,
+          //   commentData: `${new Date().getDay()} August ${new Date().getFullYear()} ${new Date().getHours()}:${new Date().getMinutes()}`,
+          // },
+        ]
       },
 
 
@@ -1130,6 +4303,42 @@ const CardData = [
         displayType: "Retina",
         diagonal: "6.7",
         camera: "12 Mpx",
+        data: [
+          {
+            id: 1,
+            menu: "Characteristics",
+            typeOfInstallation: "Wall",
+            weight1: 30,
+            workingEnvironment: "Water, Glycols",
+            numberOfSIMCard: 2,
+            power: 12,
+            heatedArea: 120,
+            boilerType: "Double circuit",
+            combustionChumberType: "Closed",
+            depth: 299,
+            width: 400,
+            height: 700,
+            weight2: 30,
+          },
+
+          {
+            id: 2,
+            menu: "About",
+            desc1: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions). Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions).",
+            desc2: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions).",
+            desc3: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions)."
+          },
+
+          // {
+          //   id: 3,
+          //   menu: "Comments",
+          //   avatar: "https://picsum.photos/64",
+          //   username: "Nasibjon Ikromov",
+          //   userId: 123034,
+          //   userComment: `By mistake, some - intentionally (for example, humorous variants).`,
+          //   commentData: `${new Date().getDay()} August ${new Date().getFullYear()} ${new Date().getHours()}:${new Date().getMinutes()}`,
+          // },
+        ]
       },
 
       {
@@ -1142,6 +4351,42 @@ const CardData = [
         displayType: "Retina",
         diagonal: "6.7",
         camera: "12 Mpx",
+        data: [
+          {
+            id: 1,
+            menu: "Characteristics",
+            typeOfInstallation: "Wall",
+            weight1: 30,
+            workingEnvironment: "Water, Glycols",
+            numberOfSIMCard: 2,
+            power: 12,
+            heatedArea: 120,
+            boilerType: "Double circuit",
+            combustionChumberType: "Closed",
+            depth: 299,
+            width: 400,
+            height: 700,
+            weight2: 30,
+          },
+
+          {
+            id: 2,
+            menu: "About",
+            desc1: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions). Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions).",
+            desc2: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions).",
+            desc3: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions)."
+          },
+
+          // {
+          //   id: 3,
+          //   menu: "Comments",
+          //   avatar: "https://picsum.photos/64",
+          //   username: "Nasibjon Ikromov",
+          //   userId: 123034,
+          //   userComment: `By mistake, some - intentionally (for example, humorous variants).`,
+          //   commentData: `${new Date().getDay()} August ${new Date().getFullYear()} ${new Date().getHours()}:${new Date().getMinutes()}`,
+          // },
+        ]
       },
 
       {
@@ -1154,6 +4399,42 @@ const CardData = [
         displayType: "Retina",
         diagonal: "6.7",
         camera: "12 Mpx",
+        data: [
+          {
+            id: 1,
+            menu: "Characteristics",
+            typeOfInstallation: "Wall",
+            weight1: 30,
+            workingEnvironment: "Water, Glycols",
+            numberOfSIMCard: 2,
+            power: 12,
+            heatedArea: 120,
+            boilerType: "Double circuit",
+            combustionChumberType: "Closed",
+            depth: 299,
+            width: 400,
+            height: 700,
+            weight2: 30,
+          },
+
+          {
+            id: 2,
+            menu: "About",
+            desc1: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions). Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions).",
+            desc2: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions).",
+            desc3: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions)."
+          },
+
+          // {
+          //   id: 3,
+          //   menu: "Comments",
+          //   avatar: "https://picsum.photos/64",
+          //   username: "Nasibjon Ikromov",
+          //   userId: 123034,
+          //   userComment: `By mistake, some - intentionally (for example, humorous variants).`,
+          //   commentData: `${new Date().getDay()} August ${new Date().getFullYear()} ${new Date().getHours()}:${new Date().getMinutes()}`,
+          // },
+        ]
       },
 
       {
@@ -1166,6 +4447,42 @@ const CardData = [
         displayType: "Retina",
         diagonal: "6.7",
         camera: "12 Mpx",
+        data: [
+          {
+            id: 1,
+            menu: "Characteristics",
+            typeOfInstallation: "Wall",
+            weight1: 30,
+            workingEnvironment: "Water, Glycols",
+            numberOfSIMCard: 2,
+            power: 12,
+            heatedArea: 120,
+            boilerType: "Double circuit",
+            combustionChumberType: "Closed",
+            depth: 299,
+            width: 400,
+            height: 700,
+            weight2: 30,
+          },
+
+          {
+            id: 2,
+            menu: "About",
+            desc1: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions). Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions).",
+            desc2: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions).",
+            desc3: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions)."
+          },
+
+          // {
+          //   id: 3,
+          //   menu: "Comments",
+          //   avatar: "https://picsum.photos/64",
+          //   username: "Nasibjon Ikromov",
+          //   userId: 123034,
+          //   userComment: `By mistake, some - intentionally (for example, humorous variants).`,
+          //   commentData: `${new Date().getDay()} August ${new Date().getFullYear()} ${new Date().getHours()}:${new Date().getMinutes()}`,
+          // },
+        ]
       },
 
       {
@@ -1178,6 +4495,42 @@ const CardData = [
         displayType: "Retina",
         diagonal: "6.7",
         camera: "12 Mpx",
+        data: [
+          {
+            id: 1,
+            menu: "Characteristics",
+            typeOfInstallation: "Wall",
+            weight1: 30,
+            workingEnvironment: "Water, Glycols",
+            numberOfSIMCard: 2,
+            power: 12,
+            heatedArea: 120,
+            boilerType: "Double circuit",
+            combustionChumberType: "Closed",
+            depth: 299,
+            width: 400,
+            height: 700,
+            weight2: 30,
+          },
+
+          {
+            id: 2,
+            menu: "About",
+            desc1: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions). Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions).",
+            desc2: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions).",
+            desc3: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions)."
+          },
+
+          // {
+          //   id: 3,
+          //   menu: "Comments",
+          //   avatar: "https://picsum.photos/64",
+          //   username: "Nasibjon Ikromov",
+          //   userId: 123034,
+          //   userComment: `By mistake, some - intentionally (for example, humorous variants).`,
+          //   commentData: `${new Date().getDay()} August ${new Date().getFullYear()} ${new Date().getHours()}:${new Date().getMinutes()}`,
+          // },
+        ]
       },
 
       {
@@ -1190,6 +4543,42 @@ const CardData = [
         displayType: "Retina",
         diagonal: "6.7",
         camera: "12 Mpx",
+        data: [
+          {
+            id: 1,
+            menu: "Characteristics",
+            typeOfInstallation: "Wall",
+            weight1: 30,
+            workingEnvironment: "Water, Glycols",
+            numberOfSIMCard: 2,
+            power: 12,
+            heatedArea: 120,
+            boilerType: "Double circuit",
+            combustionChumberType: "Closed",
+            depth: 299,
+            width: 400,
+            height: 700,
+            weight2: 30,
+          },
+
+          {
+            id: 2,
+            menu: "About",
+            desc1: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions). Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions).",
+            desc2: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions).",
+            desc3: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions)."
+          },
+
+          // {
+          //   id: 3,
+          //   menu: "Comments",
+          //   avatar: "https://picsum.photos/64",
+          //   username: "Nasibjon Ikromov",
+          //   userId: 123034,
+          //   userComment: `By mistake, some - intentionally (for example, humorous variants).`,
+          //   commentData: `${new Date().getDay()} August ${new Date().getFullYear()} ${new Date().getHours()}:${new Date().getMinutes()}`,
+          // },
+        ]
       },
 
       {
@@ -1202,6 +4591,42 @@ const CardData = [
         displayType: "Retina",
         diagonal: "6.7",
         camera: "12 Mpx",
+        data: [
+          {
+            id: 1,
+            menu: "Characteristics",
+            typeOfInstallation: "Wall",
+            weight1: 30,
+            workingEnvironment: "Water, Glycols",
+            numberOfSIMCard: 2,
+            power: 12,
+            heatedArea: 120,
+            boilerType: "Double circuit",
+            combustionChumberType: "Closed",
+            depth: 299,
+            width: 400,
+            height: 700,
+            weight2: 30,
+          },
+
+          {
+            id: 2,
+            menu: "About",
+            desc1: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions). Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions).",
+            desc2: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions).",
+            desc3: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions)."
+          },
+
+          // {
+          //   id: 3,
+          //   menu: "Comments",
+          //   avatar: "https://picsum.photos/64",
+          //   username: "Nasibjon Ikromov",
+          //   userId: 123034,
+          //   userComment: `By mistake, some - intentionally (for example, humorous variants).`,
+          //   commentData: `${new Date().getDay()} August ${new Date().getFullYear()} ${new Date().getHours()}:${new Date().getMinutes()}`,
+          // },
+        ]
       },
 
       {
@@ -1214,6 +4639,42 @@ const CardData = [
         displayType: "Retina",
         diagonal: "6.7",
         camera: "12 Mpx",
+        data: [
+          {
+            id: 1,
+            menu: "Characteristics",
+            typeOfInstallation: "Wall",
+            weight1: 30,
+            workingEnvironment: "Water, Glycols",
+            numberOfSIMCard: 2,
+            power: 12,
+            heatedArea: 120,
+            boilerType: "Double circuit",
+            combustionChumberType: "Closed",
+            depth: 299,
+            width: 400,
+            height: 700,
+            weight2: 30,
+          },
+
+          {
+            id: 2,
+            menu: "About",
+            desc1: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions). Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions).",
+            desc2: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions).",
+            desc3: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions)."
+          },
+
+          // {
+          //   id: 3,
+          //   menu: "Comments",
+          //   avatar: "https://picsum.photos/64",
+          //   username: "Nasibjon Ikromov",
+          //   userId: 123034,
+          //   userComment: `By mistake, some - intentionally (for example, humorous variants).`,
+          //   commentData: `${new Date().getDay()} August ${new Date().getFullYear()} ${new Date().getHours()}:${new Date().getMinutes()}`,
+          // },
+        ]
       },
 
       {
@@ -1226,6 +4687,42 @@ const CardData = [
         displayType: "Retina",
         diagonal: "6.7",
         camera: "12 Mpx",
+        data: [
+          {
+            id: 1,
+            menu: "Characteristics",
+            typeOfInstallation: "Wall",
+            weight1: 30,
+            workingEnvironment: "Water, Glycols",
+            numberOfSIMCard: 2,
+            power: 12,
+            heatedArea: 120,
+            boilerType: "Double circuit",
+            combustionChumberType: "Closed",
+            depth: 299,
+            width: 400,
+            height: 700,
+            weight2: 30,
+          },
+
+          {
+            id: 2,
+            menu: "About",
+            desc1: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions). Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions).",
+            desc2: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions).",
+            desc3: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions)."
+          },
+
+          // {
+          //   id: 3,
+          //   menu: "Comments",
+          //   avatar: "https://picsum.photos/64",
+          //   username: "Nasibjon Ikromov",
+          //   userId: 123034,
+          //   userComment: `By mistake, some - intentionally (for example, humorous variants).`,
+          //   commentData: `${new Date().getDay()} August ${new Date().getFullYear()} ${new Date().getHours()}:${new Date().getMinutes()}`,
+          // },
+        ]
       },
 
       {
@@ -1238,6 +4735,42 @@ const CardData = [
         displayType: "Retina",
         diagonal: "6.7",
         camera: "12 Mpx",
+        data: [
+          {
+            id: 1,
+            menu: "Characteristics",
+            typeOfInstallation: "Wall",
+            weight1: 30,
+            workingEnvironment: "Water, Glycols",
+            numberOfSIMCard: 2,
+            power: 12,
+            heatedArea: 120,
+            boilerType: "Double circuit",
+            combustionChumberType: "Closed",
+            depth: 299,
+            width: 400,
+            height: 700,
+            weight2: 30,
+          },
+
+          {
+            id: 2,
+            menu: "About",
+            desc1: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions). Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions).",
+            desc2: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions).",
+            desc3: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions)."
+          },
+
+          // {
+          //   id: 3,
+          //   menu: "Comments",
+          //   avatar: "https://picsum.photos/64",
+          //   username: "Nasibjon Ikromov",
+          //   userId: 123034,
+          //   userComment: `By mistake, some - intentionally (for example, humorous variants).`,
+          //   commentData: `${new Date().getDay()} August ${new Date().getFullYear()} ${new Date().getHours()}:${new Date().getMinutes()}`,
+          // },
+        ]
       },
 
 
@@ -1256,6 +4789,42 @@ const CardData = [
         displayType: "Retina",
         diagonal: "6.7",
         camera: "12 Mpx",
+        data: [
+          {
+            id: 1,
+            menu: "Characteristics",
+            typeOfInstallation: "Wall",
+            weight1: 30,
+            workingEnvironment: "Water, Glycols",
+            numberOfSIMCard: 2,
+            power: 12,
+            heatedArea: 120,
+            boilerType: "Double circuit",
+            combustionChumberType: "Closed",
+            depth: 299,
+            width: 400,
+            height: 700,
+            weight2: 30,
+          },
+
+          {
+            id: 2,
+            menu: "About",
+            desc1: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions). Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions).",
+            desc2: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions).",
+            desc3: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions)."
+          },
+
+          // {
+          //   id: 3,
+          //   menu: "Comments",
+          //   avatar: "https://picsum.photos/64",
+          //   username: "Nasibjon Ikromov",
+          //   userId: 123034,
+          //   userComment: `By mistake, some - intentionally (for example, humorous variants).`,
+          //   commentData: `${new Date().getDay()} August ${new Date().getFullYear()} ${new Date().getHours()}:${new Date().getMinutes()}`,
+          // },
+        ]
       },
 
       {
@@ -1268,6 +4837,42 @@ const CardData = [
         displayType: "Retina",
         diagonal: "6.7",
         camera: "12 Mpx",
+        data: [
+          {
+            id: 1,
+            menu: "Characteristics",
+            typeOfInstallation: "Wall",
+            weight1: 30,
+            workingEnvironment: "Water, Glycols",
+            numberOfSIMCard: 2,
+            power: 12,
+            heatedArea: 120,
+            boilerType: "Double circuit",
+            combustionChumberType: "Closed",
+            depth: 299,
+            width: 400,
+            height: 700,
+            weight2: 30,
+          },
+
+          {
+            id: 2,
+            menu: "About",
+            desc1: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions). Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions).",
+            desc2: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions).",
+            desc3: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions)."
+          },
+
+          // {
+          //   id: 3,
+          //   menu: "Comments",
+          //   avatar: "https://picsum.photos/64",
+          //   username: "Nasibjon Ikromov",
+          //   userId: 123034,
+          //   userComment: `By mistake, some - intentionally (for example, humorous variants).`,
+          //   commentData: `${new Date().getDay()} August ${new Date().getFullYear()} ${new Date().getHours()}:${new Date().getMinutes()}`,
+          // },
+        ]
       },
 
       {
@@ -1280,6 +4885,42 @@ const CardData = [
         displayType: "Retina",
         diagonal: "6.7",
         camera: "12 Mpx",
+        data: [
+          {
+            id: 1,
+            menu: "Characteristics",
+            typeOfInstallation: "Wall",
+            weight1: 30,
+            workingEnvironment: "Water, Glycols",
+            numberOfSIMCard: 2,
+            power: 12,
+            heatedArea: 120,
+            boilerType: "Double circuit",
+            combustionChumberType: "Closed",
+            depth: 299,
+            width: 400,
+            height: 700,
+            weight2: 30,
+          },
+
+          {
+            id: 2,
+            menu: "About",
+            desc1: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions). Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions).",
+            desc2: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions).",
+            desc3: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions)."
+          },
+
+          // {
+          //   id: 3,
+          //   menu: "Comments",
+          //   avatar: "https://picsum.photos/64",
+          //   username: "Nasibjon Ikromov",
+          //   userId: 123034,
+          //   userComment: `By mistake, some - intentionally (for example, humorous variants).`,
+          //   commentData: `${new Date().getDay()} August ${new Date().getFullYear()} ${new Date().getHours()}:${new Date().getMinutes()}`,
+          // },
+        ]
       },
 
       {
@@ -1292,6 +4933,42 @@ const CardData = [
         displayType: "Retina",
         diagonal: "6.7",
         camera: "12 Mpx",
+        data: [
+          {
+            id: 1,
+            menu: "Characteristics",
+            typeOfInstallation: "Wall",
+            weight1: 30,
+            workingEnvironment: "Water, Glycols",
+            numberOfSIMCard: 2,
+            power: 12,
+            heatedArea: 120,
+            boilerType: "Double circuit",
+            combustionChumberType: "Closed",
+            depth: 299,
+            width: 400,
+            height: 700,
+            weight2: 30,
+          },
+
+          {
+            id: 2,
+            menu: "About",
+            desc1: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions). Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions).",
+            desc2: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions).",
+            desc3: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions)."
+          },
+
+          // {
+          //   id: 3,
+          //   menu: "Comments",
+          //   avatar: "https://picsum.photos/64",
+          //   username: "Nasibjon Ikromov",
+          //   userId: 123034,
+          //   userComment: `By mistake, some - intentionally (for example, humorous variants).`,
+          //   commentData: `${new Date().getDay()} August ${new Date().getFullYear()} ${new Date().getHours()}:${new Date().getMinutes()}`,
+          // },
+        ]
       },
 
       {
@@ -1304,6 +4981,42 @@ const CardData = [
         displayType: "Retina",
         diagonal: "6.7",
         camera: "12 Mpx",
+        data: [
+          {
+            id: 1,
+            menu: "Characteristics",
+            typeOfInstallation: "Wall",
+            weight1: 30,
+            workingEnvironment: "Water, Glycols",
+            numberOfSIMCard: 2,
+            power: 12,
+            heatedArea: 120,
+            boilerType: "Double circuit",
+            combustionChumberType: "Closed",
+            depth: 299,
+            width: 400,
+            height: 700,
+            weight2: 30,
+          },
+
+          {
+            id: 2,
+            menu: "About",
+            desc1: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions). Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions).",
+            desc2: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions).",
+            desc3: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions)."
+          },
+
+          // {
+          //   id: 3,
+          //   menu: "Comments",
+          //   avatar: "https://picsum.photos/64",
+          //   username: "Nasibjon Ikromov",
+          //   userId: 123034,
+          //   userComment: `By mistake, some - intentionally (for example, humorous variants).`,
+          //   commentData: `${new Date().getDay()} August ${new Date().getFullYear()} ${new Date().getHours()}:${new Date().getMinutes()}`,
+          // },
+        ]
       },
 
       {
@@ -1316,6 +5029,42 @@ const CardData = [
         displayType: "Retina",
         diagonal: "6.7",
         camera: "12 Mpx",
+        data: [
+          {
+            id: 1,
+            menu: "Characteristics",
+            typeOfInstallation: "Wall",
+            weight1: 30,
+            workingEnvironment: "Water, Glycols",
+            numberOfSIMCard: 2,
+            power: 12,
+            heatedArea: 120,
+            boilerType: "Double circuit",
+            combustionChumberType: "Closed",
+            depth: 299,
+            width: 400,
+            height: 700,
+            weight2: 30,
+          },
+
+          {
+            id: 2,
+            menu: "About",
+            desc1: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions). Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions).",
+            desc2: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions).",
+            desc3: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions)."
+          },
+
+          // {
+          //   id: 3,
+          //   menu: "Comments",
+          //   avatar: "https://picsum.photos/64",
+          //   username: "Nasibjon Ikromov",
+          //   userId: 123034,
+          //   userComment: `By mistake, some - intentionally (for example, humorous variants).`,
+          //   commentData: `${new Date().getDay()} August ${new Date().getFullYear()} ${new Date().getHours()}:${new Date().getMinutes()}`,
+          // },
+        ]
       },
 
       {
@@ -1328,6 +5077,42 @@ const CardData = [
         displayType: "Retina",
         diagonal: "6.7",
         camera: "12 Mpx",
+        data: [
+          {
+            id: 1,
+            menu: "Characteristics",
+            typeOfInstallation: "Wall",
+            weight1: 30,
+            workingEnvironment: "Water, Glycols",
+            numberOfSIMCard: 2,
+            power: 12,
+            heatedArea: 120,
+            boilerType: "Double circuit",
+            combustionChumberType: "Closed",
+            depth: 299,
+            width: 400,
+            height: 700,
+            weight2: 30,
+          },
+
+          {
+            id: 2,
+            menu: "About",
+            desc1: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions). Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions).",
+            desc2: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions).",
+            desc3: "Over the years, the text of Lorem Ipsum has received many versions. Some versions appeared by mistake, some intentionally (for example, humorous versions)."
+          },
+
+          // {
+          //   id: 3,
+          //   menu: "Comments",
+          //   avatar: "https://picsum.photos/64",
+          //   username: "Nasibjon Ikromov",
+          //   userId: 123034,
+          //   userComment: `By mistake, some - intentionally (for example, humorous variants).`,
+          //   commentData: `${new Date().getDay()} August ${new Date().getFullYear()} ${new Date().getHours()}:${new Date().getMinutes()}`,
+          // },
+        ]
       },
 
     ],

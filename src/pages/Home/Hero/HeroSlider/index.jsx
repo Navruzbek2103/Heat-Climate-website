@@ -1,11 +1,6 @@
 import React, { useRef, useState } from "react";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
-import HeroProductImg1 from "./../../../../assets/images/kotyol-card-img.png";
-import HeroProductImg2 from "./../../../../assets/images/Radiator/radiator-card-img-1.png";
-import HeroProductImg3 from "./../../../../assets/images/nasos-card-img.png";
-import HeroProductImg4 from "./../../../../assets/images/armatura-card-img.png";
-import HeroProductImg5 from "./../../../../assets/images/gorelka-card-img.png";
 import { Link } from "react-router-dom";
 import { RiArrowRightSLine } from "react-icons/ri";
 import CardData from "../../Categories/Card";
@@ -29,7 +24,6 @@ export default function App() {
     progressContent.current.textContent = `${Math.ceil(time / 1000)}s`;
   };
 
-  // console.log(CardData);
 
   return (
     <>
@@ -48,101 +42,37 @@ export default function App() {
         onAutoplayTimeLeft={onAutoplayTimeLeft}
         className="mySwiper"
       >
-        <SwiperSlide>
-          <div className="swiper__content">
-            <p className="swiper__content-subtitle">Thermona</p>
-            <h2 className="swiper__content-title">
-              Котлы для удобной и экономной эксплуатации...
-            </h2>
-            <Link to="/Котлы" className="swiper__content-link">
-              Подробнее
-              <RiArrowRightSLine />
-            </Link>
-          </div>
-          <div className="swiper__hero">
-            <img
-              src={HeroProductImg1}
-              alt="product img"
-              className="swiper__hero-img"
-            />
-          </div>
-        </SwiperSlide>
-        <SwiperSlide>
-          <div className="swiper__content">
-            <p className="swiper__content-subtitle">Thermona</p>
-            <h2 className="swiper__content-title">
-              Радиатор для удобной и экономной эксплуатации...
-            </h2>
-            <Link to="/Радиатор" className="swiper__content-link">
-              Подробнее
-              <RiArrowRightSLine />
-            </Link>
-          </div>
-          <div className="swiper__hero">
-            <img
-              src={HeroProductImg2}
-              alt="product img"
-              className="swiper__hero-img"
-            />
-          </div>
-        </SwiperSlide>
-        <SwiperSlide>
-          <div className="swiper__content">
-            <p className="swiper__content-subtitle">Thermona</p>
-            <h2 className="swiper__content-title">
-              Насосы для удобной и экономной эксплуатации...
-            </h2>
-            <Link to="/Насосы" className="swiper__content-link">
-              Подробнее
-              <RiArrowRightSLine />
-            </Link>
-          </div>
-          <div className="swiper__hero">
-            <img
-              src={HeroProductImg3}
-              alt="product img"
-              className="swiper__hero-img"
-            />
-          </div>
-        </SwiperSlide>
-        <SwiperSlide>
-          <div className="swiper__content">
-            <p className="swiper__content-subtitle">Thermona</p>
-            <h2 className="swiper__content-title">
-              Арматура для удобной и экономной эксплуатации...
-            </h2>
-            <Link to="/Арматура" className="swiper__content-link">
-              Подробнее
-              <RiArrowRightSLine />
-            </Link>
-          </div>
-          <div className="swiper__hero">
-            <img
-              src={HeroProductImg4}
-              alt="product img"
-              className="swiper__hero-img"
-            />
-          </div>
-        </SwiperSlide>
-        <SwiperSlide>
-          <div className="swiper__content">
-            <p className="swiper__content-subtitle">Thermona</p>
-            <h2 className="swiper__content-title">
-              Горелки для удобной и экономной эксплуатации...
-            </h2>
-            <Link to="/Горелки" className="swiper__content-link">
-              Подробнее
-              <RiArrowRightSLine />
-            </Link>
-          </div>
-          <div className="swiper__hero">
-            <img
-              src={HeroProductImg5}
-              alt="product img"
-              className="swiper__hero-img"
-            />
-          </div>
-        </SwiperSlide>
+        {
+          CardData.map((category) => {
+            if(Object.keys(category)[0] === "NewProducts"){
+              return Object.values(category)[0].map(({ id, desc, productName, productImg}) => {
+                return (
+                  <SwiperSlide key={id}>
+                    <div className="swiper__content">
+                      <p className="swiper__content-subtitle">Thermona</p>
+                      <h2 className="swiper__content-title">{desc}</h2>
+                      <Link
+                        to={productName.split(" ").join("-")}
+                        className="swiper__content-link"
+                      >
+                        Подробнее
+                        <RiArrowRightSLine />
+                      </Link>
+                    </div>
+                    <div className="swiper__hero">
+                      <img
+                        src={productImg[0]}
+                        alt="product img"
+                        className="swiper__hero-img"
+                      />
+                    </div>
+                  </SwiperSlide>
+                );
+              });
+            }
+          })
+        }
+
 
         <div className="autoplay-progress" slot="container-end">
           <svg viewBox="0 0 48 48" ref={progressCircle}>
