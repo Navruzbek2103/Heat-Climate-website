@@ -25,22 +25,34 @@ const index = () => {
                 </Link>
                 <ul className="footer-top__left-nav-list">
                   <li className="footer-top__left-nav-item">
-                    <NavLink className="footer-top__left-nav-item-link">
+                    <NavLink
+                      to="/Бренды"
+                      className="footer-top__left-nav-item-link"
+                    >
                       Бренды
                     </NavLink>
                   </li>
                   <li className="footer-top__left-nav-item">
-                    <NavLink className="footer-top__left-nav-item-link">
+                    <NavLink
+                      to="/Сервисная-служба"
+                      className="footer-top__left-nav-item-link"
+                    >
                       Сервисная служба
                     </NavLink>
                   </li>
                   <li className="footer-top__left-nav-item">
-                    <NavLink className="footer-top__left-nav-item-link">
+                    <NavLink
+                      to="/Новости"
+                      className="footer-top__left-nav-item-link"
+                    >
                       Новости
                     </NavLink>
                   </li>
                   <li className="footer-top__left-nav-item">
-                    <NavLink className="footer-top__left-nav-item-link">
+                    <NavLink
+                      to="/Контакты"
+                      className="footer-top__left-nav-item-link"
+                    >
                       Контакты
                     </NavLink>
                   </li>
@@ -83,12 +95,20 @@ const index = () => {
           <div className="footer-bottom-wrapper">
             <ul className="footer-bottom__left-list">
               <li className="footer-bottom__left-item">
-                <a href="" target={`_blank`} className="footer-bottom__left-item-link">
+                <a
+                  href=""
+                  target={`_blank`}
+                  className="footer-bottom__left-item-link"
+                >
                   Privacy & Policy
                 </a>
               </li>
               <li className="footer-bottom__left-item">
-                <a href="" target={`_blank`} className="footer-bottom__left-item-link">
+                <a
+                  href=""
+                  target={`_blank`}
+                  className="footer-bottom__left-item-link"
+                >
                   Terms of use
                 </a>
               </li>
